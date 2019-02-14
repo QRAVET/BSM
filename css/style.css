@@ -27,4 +27,25 @@
   color: #000000;
 }
 
+/***** BACKGROUND *****/
+.bg-light-grey {
+  background-color: #818284;
+}
+
+.bg-medium-grey {
+  color: #414140;
+}
+
+.bg-dark-grey {
+  color: #1e2023;
+}
+
+.bg-blue-green {
+  color: #5cafa6;
+}
+
+.bg-yellow-bsm {
+  color: #f4c55c;
+}
+
 /*# sourceMappingURL=style.css.map */

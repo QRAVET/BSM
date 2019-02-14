@@ -1,23 +1,46 @@
 /***** COULEURS *****/
+$light-grey: #818284;
+$medium-grey:#414140;
+$dark-grey:#1e2023;
+$blue-green:#5cafa6;
+$yellow-bsm:#f4c55c;
 
 .light-grey {
-    color: #818284;
+    color: $light-grey;
 }
 .medium-grey {
-    color: #414140;
+    color: $medium-grey;
 }
 .dark-grey {
-    color: #1e2023;
+    color: $dark-grey;
 }
 .blue-green {
-    color: #5cafa6;
+    color: $blue-green;
 }
 .yellow-bsm {
-    color: #f4c55c;
+    color: $yellow-bsm;
 }
 .white {
     color: #ffffff;
 }
 .black {
     color: #000000;
+}
+
+/***** BACKGROUND *****/
+
+.bg-light-grey {
+    background-color:$light-grey;
+}
+.bg-medium-grey {
+    color: $medium-grey;
+}
+.bg-dark-grey {
+    color: $dark-grey;
+}
+.bg-blue-green {
+    color: $blue-green;
+}
+.bg-yellow-bsm {
+    color: $yellow-bsm;
 }
