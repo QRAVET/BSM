@@ -51,4 +51,13 @@
   color: #f4c55c;
 }
 
+/***** LOGOS SOCIAUX *****/
+.logo-fb-blue {
+  background: url(../img/picto/fb-blue.svg);
+}
+
+.logo-insta-blue {
+  background: url(../img/picto/insta-blue.svg);
+}
+
 /*# sourceMappingURL=style.css.map */

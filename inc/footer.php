@@ -13,7 +13,9 @@
                     </div>
                 </div>
                 <div class="columns">
-                    
+                    <div class="logo-fb-blue"></div>
+                    <div class="logo-insta-blue"></div>
+
                 </div>
             </div>
             <div class="column col-4"></div>
