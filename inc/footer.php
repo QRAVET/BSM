@@ -1,4 +1,4 @@
-<footer class="columns bg-medium-grey">
+<footer class="columns bg-medium-grey white">
     <div class="container grid-xl ">
         <div class="columns">
             <div class="column col-5">
@@ -13,8 +13,8 @@
                     </div>
                 </div>
                 <div class="columns">
-                    <div class="logo-fb-blue"></div>
-                    <div class="logo-insta-blue"></div>
+                    <a href="" class="logo-fb-blue"></a>
+                    <a href="" class="logo-insta-blue"></a>
                 </div>
             </div>
             <div class="column col-1"></div>
@@ -34,5 +34,21 @@
                 <p>Haut de page</p>
             </div>
         </div>
-    </div>
+        <div class="columns">
+            <div class="column col-1"></div>
+            <div class="column col-10 col-mx-auto">
+                <div class="divider"></div>
+                <p class="text-center">Bassins à flot - Bacalan - Boulevard Alfred Daney 33000 BORDEAUX</p>
+                <div class="columns">
+                    <div class="column col-4"></div>
+                    <div class="column col-4 divider"></div>
+                    <div class="column col-4"></div>
+                </div>
+                <div class="columns text-center">
+                    <p class="">LaBaseSousMarine - <a href="">Mentions légales </a><p> - tél : 05.56.11.11.50</p>
+                </div>
+            </div>
+            <div class="column col-1"></div>
+        </div>
+    </div>    
 </footer>

@@ -36,28 +36,56 @@
 }
 
 .bg-medium-grey {
-  color: #414140;
+  background-color: #414140;
 }
 
 .bg-dark-grey {
-  color: #1e2023;
+  background-color: #1e2023;
 }
 
 .bg-blue-green {
-  color: #5cafa6;
+  background-color: #5cafa6;
 }
 
 .bg-yellow-bsm {
-  color: #f4c55c;
+  background-color: #f4c55c;
 }
 
 /***** LOGOS SOCIAUX *****/
 .logo-fb-blue {
   background: url(../img/picto/fb-blue.svg);
+  height: 50px;
+  width: 50px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .logo-insta-blue {
   background: url(../img/picto/insta-blue.svg);
+  height: 50px;
+  width: 50px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.pages {
+  text-decoration: none;
+  padding-left: 20px;
+}
+
+/***** BUTTONS *****/
+.button-white {
+  background: url(../img/picto/button/button-white.svg);
+  height: 50px;
+  width: 50px;
+}
+
+.button-grey {
+  background: url(../img/picto/button/button-grey.svg);
+  height: 50px;
+  width: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */
