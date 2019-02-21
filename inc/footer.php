@@ -1,5 +1,5 @@
-<footer class="columns">
-    <div class="container grid-xl">
+<footer class="columns bg-medium-grey">
+    <div class="container grid-xl ">
         <div class="columns">
             <div class="column col-5">
                 <h3 class="text-uppercase">restez connectés :</h3>
@@ -18,8 +18,21 @@
                 </div>
             </div>
             <div class="column col-1"></div>
-            <div class="column col-3"></div>
-            <div class="column col-2"></div>
+            <div class="column col-3">
+                <h3 class="text-uppercase">navigation :</h3>
+                <div>Accueil
+                    <div class="pages">
+                        <li>La Base sous-marine</li>
+                        <li>Programmation</li>
+                        <li>Votre visite</li>
+                        <li>Contact</li>
+                    </div>
+                </div>
+            </div>
+            <div class="column col-2">
+                <div class="button-white"></div>
+                <p>Haut de page</p>
+            </div>
         </div>
     </div>
 </footer>

@@ -37,24 +37,49 @@ $yellow-bsm:#f4c55c;
     background-color:$light-grey;
 }
 .bg-medium-grey {
-    color: $medium-grey;
+    background-color: $medium-grey;
 }
 .bg-dark-grey {
-    color: $dark-grey;
+    background-color: $dark-grey;
 }
 .bg-blue-green {
-    color: $blue-green;
+    background-color: $blue-green;
 }
 .bg-yellow-bsm {
-    color: $yellow-bsm;
+    background-color: $yellow-bsm;
 }
 
 /***** LOGOS SOCIAUX *****/
 
 .logo-fb-blue {
     background: url(../img/picto/fb-blue.svg);
-    height: 150px;
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
 }
 .logo-insta-blue {
-    background: url(../img/picto/insta-blue.svg)
+    background: url(../img/picto/insta-blue.svg);
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+}
+
+
+.pages {
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+/***** BUTTONS *****/
+
+.button-white {
+    background: url(../img/picto/button/button-white.svg);
+    height: 50px;
+    width: 50px;
+}
+
+.button-grey {
+    background: url(../img/picto/button/button-grey.svg);
+    height: 50px;
+    width: 50px;
 }
