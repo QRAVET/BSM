@@ -51,6 +51,36 @@
   background-color: #f4c55c;
 }
 
+/***** TITRES *****/
+p {
+  font-size: 14pt;
+  font-family: "Source Sans Pro";
+}
+
+h1 {
+  font-size: 50pt;
+  font-family: "Changa";
+  color: #1e2023;
+}
+
+h2 {
+  font-size: 30pt;
+  font-family: "Changa";
+  color: #1e2023;
+}
+
+h3 {
+  font-size: 20pt;
+  font-family: "Changa";
+  color: #1e2023;
+}
+
+h4 {
+  font-size: 18pt;
+  font-family: "Changa";
+  color: #1e2023;
+}
+
 /***** LOGOS SOCIAUX *****/
 .logo-fb-blue {
   background: url(../img/picto/fb-blue.svg);
@@ -71,6 +101,12 @@
 /***** BUTTONS *****/
 .button-white {
   background: url(../img/picto/button/button-white.svg);
+  height: 50px;
+  width: 50px;
+}
+
+.button-white-up {
+  background: url(../img/picto/button/button-white-up.svg);
   height: 50px;
   width: 50px;
 }

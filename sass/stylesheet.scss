@@ -34,7 +34,7 @@ $yellow-bsm:#f4c55c;
 /***** BACKGROUND *****/
 
 .bg-light-grey {
-    background-color:$light-grey;
+    background-color: $light-grey;
 }
 .bg-medium-grey {
     background-color: $medium-grey;
@@ -49,6 +49,35 @@ $yellow-bsm:#f4c55c;
     background-color: $yellow-bsm;
 }
 
+/***** TITRES *****/
+p {
+    font-size: 14pt;
+    font-family: 'Source Sans Pro';
+}
+
+h1 {
+    font-size: 50pt;
+    font-family: 'Changa';
+    color: $dark-grey;
+}
+
+h2 {
+    font-size: 30pt;
+    font-family: 'Changa';
+    color: $dark-grey;
+}
+
+h3 {
+    font-size: 20pt;
+    font-family: 'Changa';
+    color: $dark-grey;
+}
+
+h4 {
+    font-size: 18pt;
+    font-family: 'Changa';
+    color: $dark-grey;
+}
 /***** LOGOS SOCIAUX *****/
 
 .logo-fb-blue {
@@ -70,6 +99,11 @@ $yellow-bsm:#f4c55c;
 
 .button-white {
     background: url(../img/picto/button/button-white.svg);
+    height: 50px;
+    width: 50px;
+}
+.button-white-up {
+    background: url(../img/picto/button/button-white-up.svg);
     height: 50px;
     width: 50px;
 }
