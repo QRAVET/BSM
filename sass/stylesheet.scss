@@ -78,27 +78,90 @@ h4 {
     font-family: 'Changa';
     color: $dark-grey;
 }
-/***** LOGOS SOCIAUX *****/
+/***** LOGOS & PICTOS *****/
 
 .logo-fb-blue {
-    background: url(../img/picto/fb-blue.svg);
+    background: url(../img/picto/fb-blue.svg) no-repeat center;
     height: 50px;
     width: 50px;
 }
 .logo-insta-blue {
-    background: url(../img/picto/insta-blue.svg);
+    background: url(../img/picto/insta-blue.svg) no-repeat center;
     height: 50px;
     width: 50px;
 }
 
+.logo-bsm-color {
+    background: url(../img/picto/logo-bsm-color.svg) no-repeat center;
+    height: 150px;
+    width: 150px;
+}
+
+.logo-bsm-bk {
+    background: url(../img/picto/logo-bsm-bk.svg) no-repeat center;
+    height: 150px;
+    width: 150px;
+}
+
+/***** NAVBAR *****/
+
+.logo-clic {
+    height: 150px;
+    width: 150px; 
+}
+
+.navbar {
+    height: 150px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0 0 0 auto;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.navbar ul li {
+    display: inline-block;
+    height: 100%;
+    margin: 0;
+}
+
+.navbar ul li a:hover {
+    background: $blue-green;
+    transition: 0.6s;
+}
+
+.navbar ul li a:active {
+    background: $yellow-bsm;
+    color: white;
+}
+
+.navbar ul li a{
+    display: inline-block;
+    font-size: 18pt;
+    color: $dark-grey;
+    text-align: center;
+    padding: 52px 25px 0 25px;
+    text-decoration: none;
+    height: 100%;
+}
+
+/***** MENU BURGER *****/
+
+
+
+
+/***** FOOTER *****/
+
 .menu-footer p {
-    margin: 0px;
+    margin: 5px;
 }
 
 /***** BUTTONS *****/
 
 .button-white {
-    background: url(../img/picto/button/button-white.svg);
+    background: url(../img/picto/button/button-white.svg) no-repeat center;
     height: 50px;
     width: 50px;
 }

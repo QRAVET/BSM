@@ -11,11 +11,15 @@
     <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-exp.min.css">
     <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-icons.min.css">
 
+    <!-- Import FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <!-- Import CSS perso -->
     <link rel="stylesheet" href="./css/style.css">
 
 </head>
 <body>
-    <h1>TEST TEST</h1>
+    <?php include './inc/nav.php' ?>  
     <div class="container">
         <div class="columns">
             <div class="column col-12">
@@ -30,5 +34,6 @@
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous">
     </script><!-- Fin d'import JQUERY -->
+    <script src="js/burger.js"></script>
 </body>
 </html>
