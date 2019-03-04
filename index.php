@@ -26,9 +26,11 @@
             <div class="column col-3 col-mr-auto">
                 <a href=""><img src="img/picto/logo-bsm-color.svg" alt="logo-bsm" class="logo-bsm-color"></a>
             </div>
-            <div class="columns box-social">
-                <a href="https://www.facebook.com/BasesousmarinedeBordeaux/" target="_blank" class="logo-fb-blue"></a>
-                <a href="https://www.instagram.com/p/BsYO4g2H7M6/" target="_blank" class="logo-insta-blue"></a>          
+            <div class="column col-3 col-ml-auto">
+                <div class="columns">
+                    <a href="https://www.facebook.com/BasesousmarinedeBordeaux/" target="_blank" class="logo-fb-blue"></a>
+                    <a href="https://www.instagram.com/p/BsYO4g2H7M6/" target="_blank" class="logo-insta-blue"></a>          
+                </div>
             </div>
         </div>
         <div class="columns p-sticky p-centered picto-sous-marin tooltip" data-tooltip="Vers la surface ...">

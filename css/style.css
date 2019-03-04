@@ -104,11 +104,6 @@ h4 {
   background: url(../img/picto/insta-hover.svg) no-repeat center;
 }
 
-.box-social {
-  height: 150px;
-  width: 300px;
-}
-
 .logo-bsm-color {
   height: 150px;
   width: 150px;
@@ -212,7 +207,7 @@ html {
 }
 
 .box-h1 {
-  width: 200px;
+  width: 100px;
   height: 1700px;
   margin-top: 8%;
   margin-right: auto;
@@ -222,7 +217,7 @@ html {
 .picto-sous-marin {
   top: 100px;
   width: 400px;
-  z-index: -500;
+  z-index: -1;
 }
 
 /*# sourceMappingURL=style.css.map */
