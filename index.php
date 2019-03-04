@@ -16,14 +16,37 @@
 
     <!-- Import CSS perso -->
     <link rel="stylesheet" href="./css/style.css">
+    
+    <!-- Surcharge SPECTRE -->
+    <style>
+        a:visited {
+        border: none !important;
+        color: transparent ;
+        }
+    </style>
 
 </head>
-<body>
-    <?php include './inc/nav.php' ?>  
+<body class="sea"> 
     <div class="container">
+        <div class="columns index-header">
+            <div class="column col-3 col-mr-auto">
+                <a href=""><img src="img/picto/logo-bsm-color.svg" alt="logo-bsm" class="logo-bsm-color"></a>
+            </div>
+            <div class="column col-3 text-right">
+                <a href="https://www.facebook.com/BasesousmarinedeBordeaux/" target="_blank"><img src="img/picto/fb-blue.svg" alt="logo-facebook" class="picto-header"></a>
+                <a href="https://www.instagram.com/p/BsYO4g2H7M6/" target="_blank"><img src="img/picto/insta-blue.svg" alt="logo-instagram" class="picto-header"></a>
+            </div>
+        </div>
+
+        <div class="columns text-uppercase box-h1">
+            <h1 class="white h1-accueil"><b>la base</b> sous-marine</h1>
+        </div>
+
+
+        <!-- footer -->
         <div class="columns">
             <div class="column col-12">
-                <?php include './inc/footer.php' ?>                
+                <?php include './inc/footer.php' ?>
             </div>
         </div>
     </div>
@@ -34,6 +57,6 @@
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous">
     </script><!-- Fin d'import JQUERY -->
-    <script src="js/burger.js"></script>
+
 </body>
 </html>

@@ -8,8 +8,8 @@
             <li><a href="./votrevisite.php">votre visite</a></li>
             <li><a href="./contact.php">contact</a></li>
         </ul>
-        <div class="off-canvas column col-10 col-ml-auto show-xl">
-            <!-- off-screen toggle button -->
+        <!-- <div class="off-canvas column col-10 col-ml-auto show-xl">
+            off-screen toggle button
             <a class="off-canvas-toggle btn btn-primary btn-action" href="#sidebar-id">
                 <i class="icon icon-menu"></i>
             </a>
@@ -25,9 +25,9 @@
             <a class="off-canvas-overlay" href="#close"></a>
 
             <div class="off-canvas-content">
-                <!-- off-screen content -->
+                off-screen content 
             </div>
-        </div>
+        </div> -->
     </nav>
 </div> 
 

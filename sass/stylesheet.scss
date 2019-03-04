@@ -1,8 +1,10 @@
 /***** GOOGLE FONT *****/
+
 @import url('https://fonts.googleapis.com/css?family=Changa:400,700');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700');
 
 /***** COULEURS *****/
+
 $light-grey: #818284;
 $medium-grey:#414140;
 $dark-grey:#1e2023;
@@ -31,7 +33,7 @@ $yellow-bsm:#f4c55c;
     color: #000000;
 }
 
-/***** BACKGROUND *****/
+/***** BACKGROUND COLORS *****/
 
 .bg-light-grey {
     background-color: $light-grey;
@@ -78,6 +80,7 @@ h4 {
     font-family: 'Changa';
     color: $dark-grey;
 }
+
 /***** LOGOS & PICTOS *****/
 
 .logo-fb-blue {
@@ -92,13 +95,12 @@ h4 {
 }
 
 .logo-bsm-color {
-    background: url(../img/picto/logo-bsm-color.svg) no-repeat center;
     height: 150px;
     width: 150px;
+    margin-left: 10%;
 }
 
 .logo-bsm-bk {
-    background: url(../img/picto/logo-bsm-bk.svg) no-repeat center;
     height: 150px;
     width: 150px;
 }
@@ -158,6 +160,7 @@ h4 {
     margin: 5px;
 }
 
+
 /***** BUTTONS *****/
 
 .button-white {
@@ -165,6 +168,7 @@ h4 {
     height: 50px;
     width: 50px;
 }
+
 .button-white-up {
     background: url(../img/picto/button/button-white-up.svg);
     height: 50px;
@@ -177,3 +181,36 @@ h4 {
     width: 50px;
 }
 
+/***** ACCUEIL *****/
+
+.sea {
+    background: url(../img/photos/background-index.jpg) no-repeat;
+    margin: 0;
+}
+
+.picto-header {
+    height: 70px;
+    width: 70px;
+    margin: 35px 10% 0 0;
+}
+
+.index-header {
+    height: 150px;
+}
+
+.h1-accueil {
+    text-orientation: upright;
+    letter-spacing: -40px;
+    writing-mode: vertical-lr;
+    margin-left: auto;
+    margin-right: auto;
+    word-spacing: 50%;
+}
+
+.box-h1 {
+    width: 200px;
+    height: 1700px;
+    margin-top: 10%;
+    margin-right: auto;
+    margin-left: auto;
+}

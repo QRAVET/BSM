@@ -30,7 +30,7 @@
   color: #000000;
 }
 
-/***** BACKGROUND *****/
+/***** BACKGROUND COLORS *****/
 .bg-light-grey {
   background-color: #818284;
 }
@@ -95,13 +95,12 @@ h4 {
 }
 
 .logo-bsm-color {
-  background: url(../img/picto/logo-bsm-color.svg) no-repeat center;
   height: 150px;
   width: 150px;
+  margin-left: 10%;
 }
 
 .logo-bsm-bk {
-  background: url(../img/picto/logo-bsm-bk.svg) no-repeat center;
   height: 150px;
   width: 150px;
 }
@@ -172,6 +171,39 @@ h4 {
   background: url(../img/picto/button/button-grey.svg);
   height: 50px;
   width: 50px;
+}
+
+/***** ACCUEIL *****/
+.sea {
+  background: url(../img/photos/background-index.jpg) no-repeat;
+  margin: 0;
+}
+
+.picto-header {
+  height: 70px;
+  width: 70px;
+  margin: 35px 10% 0 0;
+}
+
+.index-header {
+  height: 150px;
+}
+
+.h1-accueil {
+  text-orientation: upright;
+  letter-spacing: -40px;
+  writing-mode: vertical-lr;
+  margin-left: auto;
+  margin-right: auto;
+  word-spacing: 50%;
+}
+
+.box-h1 {
+  width: 200px;
+  height: 1700px;
+  margin-top: 10%;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /*# sourceMappingURL=style.css.map */

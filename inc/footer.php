@@ -1,4 +1,4 @@
-<footer class="columns bg-dark-grey white">
+<footer class="columns bg-dark-grey white p-relative">
     <div class="container grid-xl ">
         <div class="columns">
             <div class="column col-5">
