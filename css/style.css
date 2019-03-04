@@ -84,14 +84,29 @@ h4 {
 /***** LOGOS & PICTOS *****/
 .logo-fb-blue {
   background: url(../img/picto/fb-blue.svg) no-repeat center;
-  height: 50px;
-  width: 50px;
+  height: 70px;
+  width: 70px;
+  margin: 35px 10% 0 auto;
+}
+
+.logo-fb-blue:hover {
+  background: url(../img/picto/fb-hover.svg) no-repeat center;
 }
 
 .logo-insta-blue {
   background: url(../img/picto/insta-blue.svg) no-repeat center;
-  height: 50px;
-  width: 50px;
+  height: 70px;
+  width: 70px;
+  margin: 35px 10% 0 0;
+}
+
+.logo-insta-blue:hover {
+  background: url(../img/picto/insta-hover.svg) no-repeat center;
+}
+
+.box-social {
+  height: 150px;
+  width: 300px;
 }
 
 .logo-bsm-color {
@@ -174,15 +189,13 @@ h4 {
 }
 
 /***** ACCUEIL *****/
+html {
+  scroll-behavior: smooth;
+}
+
 .sea {
   background: url(../img/photos/background-index.jpg) no-repeat;
   margin: 0;
-}
-
-.picto-header {
-  height: 70px;
-  width: 70px;
-  margin: 35px 10% 0 0;
 }
 
 .index-header {
@@ -201,9 +214,15 @@ h4 {
 .box-h1 {
   width: 200px;
   height: 1700px;
-  margin-top: 10%;
+  margin-top: 8%;
   margin-right: auto;
   margin-left: auto;
+}
+
+.picto-sous-marin {
+  top: 100px;
+  width: 400px;
+  z-index: -500;
 }
 
 /*# sourceMappingURL=style.css.map */
