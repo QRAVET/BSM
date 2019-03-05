@@ -26,7 +26,9 @@
             </div>
             <div class="column col-1"></div>
             <div class="column col-2">
-                <div class="button-white-up col-mx-auto"></div>
+                <div class="button-white-up col-mx-auto">
+                    <a href=""><img src="img/picto/button/button-white-up.svg" alt="haut-de-page"></a>
+                </div>
                 <p class="text-center">Haut de page</p>
             </div>
         </div>

@@ -51,34 +51,58 @@
   background-color: #f4c55c;
 }
 
-/***** TITRES *****/
+/***** FONT & TITRES *****/
 p {
   font-size: 14pt;
   font-family: "Source Sans Pro";
+}
+
+.p-accueil p {
+  font-size: 11pt;
+  font-family: "Source Sans Pro";
+  color: #818284;
 }
 
 h1 {
   font-size: 50pt;
   font-family: "Changa";
   color: #1e2023;
+  text-transform: uppercase;
 }
 
 h2 {
-  font-size: 30pt;
+  font-size: 40pt;
   font-family: "Changa";
+  font-weight: bold;
   color: #1e2023;
+  text-transform: uppercase;
 }
 
 h3 {
-  font-size: 20pt;
+  font-size: 25pt;
   font-family: "Changa";
-  color: #1e2023;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 h4 {
   font-size: 18pt;
   font-family: "Changa";
-  color: #1e2023;
+  text-transform: uppercase;
+}
+
+h5 {
+  font-size: 12pt;
+  font-family: "Changa";
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h6 {
+  font-size: 12pt;
+  font-family: "Source Sans Pro";
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 /***** LOGOS & PICTOS *****/
@@ -116,11 +140,6 @@ h4 {
 }
 
 /***** NAVBAR *****/
-.logo-clic {
-  height: 150px;
-  width: 150px;
-}
-
 .navbar {
   height: 150px;
 }
@@ -165,20 +184,20 @@ h4 {
 }
 
 /***** BUTTONS *****/
-.button-white {
-  background: url(../img/picto/button/button-white.svg) no-repeat center;
+.button-white-down {
   height: 50px;
   width: 50px;
+  position: absolute;
+  top: 800px;
+  right: 5%;
 }
 
 .button-white-up {
-  background: url(../img/picto/button/button-white-up.svg);
   height: 50px;
   width: 50px;
 }
 
 .button-grey {
-  background: url(../img/picto/button/button-grey.svg);
   height: 50px;
   width: 50px;
 }
@@ -206,6 +225,14 @@ html {
   word-spacing: 50%;
 }
 
+.h3-accueil a {
+  text-decoration: none;
+  color: white;
+}
+.h3-accueil a :hover {
+  color: #5cafa6;
+}
+
 .box-h1 {
   width: 100px;
   height: 1700px;
@@ -218,6 +245,30 @@ html {
   top: 100px;
   width: 400px;
   z-index: -1;
+}
+
+#menu-lbsm {
+  position: absolute;
+  top: 950px;
+  width: 400px;
+}
+
+#menu-visite {
+  position: absolute;
+  top: 1350px;
+  width: 400px;
+}
+
+#menu-programmation {
+  position: absolute;
+  top: 1150px;
+  width: 400px;
+}
+
+#menu-contact {
+  position: absolute;
+  top: 1800px;
+  width: 400px;
 }
 
 /*# sourceMappingURL=style.css.map */

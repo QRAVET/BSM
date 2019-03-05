@@ -36,8 +36,54 @@
         <div class="columns p-sticky p-centered picto-sous-marin tooltip" data-tooltip="Vers la surface ...">
             <a href=""><img src="img/picto/sous-marin.svg" alt="picto-sous-marin"></a>
         </div>
-        <div class="columns text-uppercase box-h1">
+        <!-- <div class="columns text-uppercase box-h1">
             <h1 class="white h1-accueil"><b>la base</b> sous-marine</h1>
+        </div> -->
+        <div class="button-white-down col-mx-auto">
+            <a href="#menu-lbsm"><img src="img/picto/button/button-white.svg" alt="ancre-section-suivante" class="button-white-up"></a>
+        </div>
+        <div class="columns p-accueil white h3-accueil">
+            <div class="column col-3 col-ml-auto">
+                <div id="menu-programmation" class="text-right">
+                    <a href=""><h3>programmation</h3></a>
+                    <h4>medio acqua</h4>
+                    <p>Parcourez l'exposition du moment.</p>
+                    <h4>évènements</h4>
+                    <p>Accèdez à la programmation variée et éclectique d’évènements de la Base Sous-marine.</p>
+                </div>
+                <div id="menu-contact" class="text-right">
+                    <a href=""><h3>contact</h3></a>
+                    <h4>réseaux sociaux</h4>
+                    <p>Retrouvez l’actualité de la Base Sous-marine sur les réseaux sociaux.</p>
+                    <h4>partenaires</h4>
+                    <p>Partagez-nous vos idées et faites partie de l’aventure de la BSM, en tant qu’artiste, mécène, colléctivité ou association.</p>
+                </div>
+            </div>
+            <div class="column col-4 text-uppercase box-h1">
+                <h1 class="white h1-accueil"><b>la base</b> sous-marine</h1>
+            </div>
+            <div class="column col-3 col-mr-auto">
+                <div id="menu-lbsm" class="text-left">
+                    <a href=""><h3>la base sous marine</h3></a>
+                    <h4>histoire</h4>
+                    <p>Passez en revue les grandes dates qui ont fait l’Histoire de ce lieu aux proportions hors-normes.</p>
+                    <h4>PROJETS FUTURS</h4>
+                    <p>Découvrez les projets d'aujourd'hui qui façonnent la Base de demain.</p>
+                </div>
+                <div id="menu-visite" class="text-left">
+                    <a href=""><h3>votre visite</h3></a>
+                    <h4>tarifs</h4>
+                    <p>Conditions et tarifs aux évènements et expositions permanantes.</p>
+                    <h4>horaires</h4>
+                    <p>Renseignez-vous sur la saisonnalité des expositions permanantes et des évènements.</p>
+                    <h4>visite guidée</h4>
+                    <p>Plannifiez une visite guidée et partagez un moment unique avec notre équipe de médiateurs culturels.</p>
+                    <h4>accèssibilité</h4>
+                    <p>Rendez-nous visite à pied, en bus, voiture ou tramway.</p>
+                    <h4>à proximité</h4>
+                    <p>Découvrez les lieux tendances qui animent le quartier des Bassins à Flots.</p>
+                </div>
+            </div>
         </div>
 
 
