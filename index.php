@@ -25,10 +25,13 @@
 
         <!-- Page version PC -->
         <div class="columns index-header">
-            <div class="column col-3 col-mr-auto">
+            <div class="column col-3 col-mr-auto hide-md">
                 <a href=""><img src="img/picto/logo-bsm-color.svg" alt="logo-bsm" class="logo-bsm-color"></a>
             </div>
-            <div class="column col-3 col-ml-auto">
+            <div class="column col-12 show-md col-mx-auto">
+                <a href=""><img src="img/picto/logo-bsm-color.svg" alt="logo-bsm" class="logo-bsm-color p-centered"></a>
+            </div>
+            <div class="column col-3 col-ml-auto hide-md">
                 <div class="columns">
                     <a href="https://www.facebook.com/BasesousmarinedeBordeaux/" target="_blank" class="logo-fb-blue"></a>
                     <a href="https://www.instagram.com/p/BsYO4g2H7M6/" target="_blank" class="logo-insta-blue"></a>          
@@ -39,11 +42,11 @@
             <a href=""><img src="img/picto/sous-marin.svg" alt="picto-sous-marin"></a>
         </div>
 
-        <div class="button-white-down col-mx-auto">
-            <a href="#menu-lbsm"><img src="img/picto/button/button-white.svg" alt="ancre-section-suivante" class="button-white-up"></a>
+        <div class="button-white-down col-mx-auto hide-md tooltip" data-tooltip="Sens de la visite">
+            <a href="#menu-lbsm"><img src="img/picto/button/button-white.svg" alt="ancre-section-suivante"></a>
         </div>
         <div class="columns p-small white h3-accueil">
-            <div class="column col-3 col-ml-auto">
+            <div class="column col-3 col-ml-auto hide-md">
                 <div id="menu-programmation" class="text-right">
                     <a href=""><h3>programmation</h3></a>
                     <h4>medio acqua</h4>
@@ -59,10 +62,13 @@
                     <p>Partagez-nous vos idées et faites partie de l’aventure de la BSM, en tant qu’artiste, mécène, colléctivité ou association.</p>
                 </div>
             </div>
-            <div class="column col-4 text-uppercase box-h1">
+            <div class="column col-4 text-uppercase box-h1 hide-md">
                 <h1 class="white h1-accueil"><b>la base</b> sous-marine</h1>
             </div>
-            <div class="column col-3 col-mr-auto">
+            <div class="column col-md-12 text-uppercase text-center show-md">
+                <h1 class="white h1-accueil"><b>la base</b><br>sous-marine</h1>
+            </div>
+            <div class="column col-3 col-mr-auto hide-md">
                 <div id="menu-lbsm" class="text-left">
                     <a href=""><h3>la base sous marine</h3></a>
                     <h4>histoire</h4>
@@ -85,7 +91,21 @@
                 </div>
             </div>
         </div>
-        
+        <!-- Page version Mobile/Tablette-->
+        <div class="columns mobile">
+            <div class="column col-md-12">
+                <div class="column col-7 col-mx-auto">
+                    <div class="divider"></div>
+                </div>
+            </div>
+            <div class="column col-10 col-mx-auto text-left">
+                <a href=""><h3><i class="fas fa-chevron-circle-right yellow-bsm"></i> la base sous marine</h3></a>
+                <h4>histoire</h4>
+                <p>Passez en revue les grandes dates qui ont fait l’Histoire de ce lieu aux proportions hors-normes.</p>
+                <h4>PROJETS FUTURS</h4>
+                <p>Découvrez les projets d'aujourd'hui qui façonnent la Base de demain.</p>
+            </div>
+        </div>
 
     </div><!-- Fin de container -->
 
@@ -100,7 +120,7 @@
     crossorigin="anonymous">
     </script><!-- Fin d'import JQUERY -->
 
-    <!-- <script src="js.js"></script> -->
+    <script src="script-accueil.js"></script>
 
 </body>
 </html>

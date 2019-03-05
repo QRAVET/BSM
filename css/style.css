@@ -84,6 +84,7 @@ h3 {
   font-family: "Changa";
   font-weight: bold;
   text-transform: uppercase;
+  margin-top: 25px;
 }
 
 h4 {
@@ -137,6 +138,22 @@ h6 {
   width: 150px;
   margin-left: 10%;
 }
+@media (max-width: 840px) {
+  .logo-bsm-color {
+    width: 60%;
+    height: 35%;
+    margin-top: 5%;
+    margin-left: auto;
+  }
+}
+@media (max-width: 600px) {
+  .logo-bsm-color {
+    width: 60%;
+    height: 50%;
+    margin-top: 5%;
+    margin-left: auto;
+  }
+}
 
 .logo-bsm-color-resp {
   height: 150px;
@@ -186,10 +203,149 @@ h6 {
   height: 100%;
 }
 
-/***** MENU BURGER *****/
+/***** BUTTONS *****/
+.button-white-down {
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  top: 820px;
+  right: 5%;
+}
+
+.button-white-up {
+  height: 50px;
+  width: 50px;
+}
+
+.button-grey {
+  height: 50px;
+  width: 50px;
+}
+
+/***** ACCUEIL *****/
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 2800px;
+  position: relative;
+}
+
+.sea {
+  background: url(../img/photos/background-index.jpg) no-repeat;
+  margin: 0;
+}
+
+.index-header {
+  height: 150px;
+}
+
+.h1-accueil {
+  font-size: 55pt;
+  text-orientation: upright;
+  letter-spacing: -40px;
+  writing-mode: vertical-lr;
+  margin-left: auto;
+  margin-right: auto;
+  word-spacing: 50%;
+  cursor: default;
+}
+@media (max-width: 840px) {
+  .h1-accueil {
+    font-size: 30pt;
+    text-orientation: initial;
+    letter-spacing: initial;
+    writing-mode: initial;
+  }
+}
+
+.h3-accueil a {
+  text-decoration: none;
+  color: white;
+}
+.h3-accueil a :hover {
+  color: #5cafa6;
+}
+
+.box-h1 {
+  width: 100px;
+  height: 1900px;
+  margin-top: 8%;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (max-width: 840px) {
+  .box-h1 {
+    width: 80%;
+  }
+}
+
+.picto-sous-marin {
+  top: 100px;
+  width: 400px;
+  z-index: -1;
+}
+@media (max-width: 840px) {
+  .picto-sous-marin {
+    max-width: 80%;
+  }
+}
+
+#menu-lbsm {
+  position: absolute;
+  top: 950px;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#menu-visite {
+  position: absolute;
+  top: 1450px;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#menu-programmation {
+  position: absolute;
+  top: 1200px;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#menu-contact {
+  position: absolute;
+  top: 2000px;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/***** RESPONSIVE ACCUEIL *****/
+.mobile a {
+  text-decoration: none;
+  color: #f4c55c;
+}
+
+.mobile h4 {
+  color: #5cafa6;
+}
+
+.mobile p {
+  color: white;
+}
+
 /***** FOOTER *****/
 .menu-footer p {
   margin: 5px;
+}
+
+.footer-resp p {
+  font-size: 12pt;
+  margin-top: 20px;
 }
 
 a.mentions:link {
@@ -203,7 +359,7 @@ footer {
 }
 @media (max-width: 840px) {
   footer {
-    height: 220px;
+    height: 270px;
   }
 }
 
@@ -260,113 +416,6 @@ footer {
 .logo-insta-resp:hover {
   background: url(../img/picto/insta-hover.svg) no-repeat center;
   transition: 0.6s;
-}
-
-.box-resp {
-  height: 400px;
-}
-
-/***** BUTTONS *****/
-.button-white-down {
-  height: 50px;
-  width: 50px;
-  position: absolute;
-  top: 800px;
-  right: 5%;
-}
-
-.button-white-up {
-  height: 50px;
-  width: 50px;
-}
-
-.button-grey {
-  height: 50px;
-  width: 50px;
-}
-
-/***** ACCUEIL *****/
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  height: 2750px;
-  position: relative;
-}
-
-.sea {
-  background: url(../img/photos/background-index.jpg) no-repeat;
-  margin: 0;
-}
-
-.index-header {
-  height: 150px;
-}
-
-.h1-accueil {
-  font-size: 55pt;
-  text-orientation: upright;
-  letter-spacing: -40px;
-  writing-mode: vertical-lr;
-  margin-left: auto;
-  margin-right: auto;
-  word-spacing: 50%;
-  cursor: default;
-}
-
-.h3-accueil a {
-  text-decoration: none;
-  color: white;
-}
-.h3-accueil a :hover {
-  color: #5cafa6;
-}
-
-.box-h1 {
-  width: 100px;
-  height: 1900px;
-  margin-top: 8%;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-.picto-sous-marin {
-  top: 100px;
-  width: 400px;
-  z-index: -1;
-}
-
-#menu-lbsm {
-  position: absolute;
-  top: 950px;
-  width: 25%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#menu-visite {
-  position: absolute;
-  top: 1450px;
-  width: 25%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#menu-programmation {
-  position: absolute;
-  top: 1200px;
-  width: 25%;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#menu-contact {
-  position: absolute;
-  top: 2000px;
-  width: 25%;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 /*# sourceMappingURL=style.css.map */
