@@ -20,8 +20,10 @@
     <!-- Surcharge SPECTRE -->
 
 </head>
-<body class="sea p-relative"> 
+<body class="sea"> 
     <div class="container">
+
+        <!-- Page version PC -->
         <div class="columns index-header">
             <div class="column col-3 col-mr-auto">
                 <a href=""><img src="img/picto/logo-bsm-color.svg" alt="logo-bsm" class="logo-bsm-color"></a>
@@ -36,13 +38,11 @@
         <div class="columns p-sticky p-centered picto-sous-marin tooltip" data-tooltip="Vers la surface ...">
             <a href=""><img src="img/picto/sous-marin.svg" alt="picto-sous-marin"></a>
         </div>
-        <!-- <div class="columns text-uppercase box-h1">
-            <h1 class="white h1-accueil"><b>la base</b> sous-marine</h1>
-        </div> -->
+
         <div class="button-white-down col-mx-auto">
             <a href="#menu-lbsm"><img src="img/picto/button/button-white.svg" alt="ancre-section-suivante" class="button-white-up"></a>
         </div>
-        <div class="columns p-accueil white h3-accueil">
+        <div class="columns p-small white h3-accueil">
             <div class="column col-3 col-ml-auto">
                 <div id="menu-programmation" class="text-right">
                     <a href=""><h3>programmation</h3></a>
@@ -85,16 +85,14 @@
                 </div>
             </div>
         </div>
+        
 
+    </div><!-- Fin de container -->
 
-        <!-- footer -->
-        <div class="columns">
-            <div class="column col-12">
-                <?php include './inc/footer.php' ?>
-            </div>
-        </div>
-    </div>
-    
+    <!-- footer -->
+    <?php include './inc/footer.php' ?>
+
+        
     <!-- Import JQUERY -->
     <script
     src="https://code.jquery.com/jquery-3.3.1.min.js"
