@@ -663,6 +663,21 @@ button[type=submit] {
   font-size: 18pt;
 }
 
+.text-5 {
+  font-size: 51pt;
+  margin-bottom: -15px;
+}
+
+.text-6 {
+  font-size: 31pt;
+  width: 400px;
+  margin-bottom: 0;
+}
+
+.align-number {
+  margin-top: 15px;
+}
+
 .exposant {
   font-size: 75%;
   position: relative;

@@ -143,9 +143,7 @@
                 </div>
             </div>
             <!-- FIN DE SECTION HISTOIRE -->
-
-
-            
+          
             <!-- SETION PROJETS -->
             <div class="container grid-xl" id="projets">
                 <div class="columns">
@@ -201,19 +199,43 @@
                         </div>
                         <div class="columns">
                             <p>C'est un lieu "extraordinaire, par son histoire, sa configuration architecturale, ses usages", 
-                                a indiqué le maire de Bordeaux <span class="text-bold">Alain Juppé</span>, en présentant le projet pressenti.</p>
+                                a indiqué le maire de Bordeaux <br><span class="text-bold">Alain Juppé</span>, en présentant le projet pressenti.</p>
                         </div>
                     </div>                    
-
+                </div>
+                <div class="columns bloc">
+                    <div class="column col-6 text-lbsm-left">
+                        <div class="columns"><p>Quatre des onze alvéoles seront utilisées au moins dans un premier temps avec</p></div>
+                        <div class="text-bold columns text-highlight-number">
+                            <div class="column col-3 text-number">2</div>
+                            <div class="column col-6 text-uppercase align-number">
+                                <div class="column col-12 text-5">spéctacles</div>
+                                <div class="column col-12 text-2">monumentaux</div>
+                                <div class="column col-12"><p class="text-6">de vidéo immersive</p></div>
+                            </div>
+                        </div>
+                        <div class="columns text-justify">
+                            <p>utilisant l’eau des bassins, un espace dédié à des expositions de <span class="text-bold">création numérique</span>,
+                             un autre voué à <span class="text-bold">l’histoire du site</span> et sa mise en valeur.</p>
+                        </div>
+                    </div>
+                    <div class="column col-6">
+                        <figure class="figure">
+                            <img src="./img/photos/page-lbsm/video-motion.jpg" alt="video-motion-bsm" class="img-responsive">
+                        </figure>
+                    </div>
+                </div>
+                <div class="columns bloc">
+                    <p class="colonne-text text-justify">Des passerelles supplémentaires permettraient au public de déambuler plus largement à travers la base.
+                         Le contrat d'exploitation porterait sur <span class="text-bold">15 ans</span>, avec <span class="text-bold">7 millions d'euros</span> d'investissements et travaux.<br><br>
+                         La ville a fixé un plafond à 15 euros pour l'entrée.<br>Dans ce projet "en devenir", la municipalité entend à terme 
+                         ouvrir un appel à <span class="text-bold">manifestation d'intérêt</span>, pour utiliser les autres alvéoles pour l'instant inutilisables pour questions de sécurité,
+                          ainsi que le toit "brise-bombes", complexe à aménager.<br><br>Le nouveau complèxe du "<span class="text-bold">Bassin des lumières</span>" 
+                          devrait ouvrir au printemps-été 2020.</p>
                 </div>
             </div>
-                <!-- NEUTRE A COPIER COLLER --> <span class="text-bold"></span>
-                <div class="columns bloc">
-                    <div class="column col-6"></div>
-                    <div class="column col-6"></div>
-                </div>
-        
-                
+            <!-- FIN DE SECTION PROJETS -->
+
     </div><!-- Fin de container -->
     
     <!-- footer -->
