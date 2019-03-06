@@ -22,6 +22,7 @@
     <div class="container">
         <!-- Header -->
         <?php include './inc/nav.php' ?>
+        <?php include './inc/burger.php' ?>
 
         <!-- Section image hero -->
         <div class="columns">

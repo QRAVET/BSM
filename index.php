@@ -146,7 +146,7 @@
     crossorigin="anonymous">
     </script><!-- Fin d'import JQUERY -->
 
-    <script src="script-accueil.js"></script>
+    <script src="js/script-accueil.js"></script>
 
 </body>
 </html>
