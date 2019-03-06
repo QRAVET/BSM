@@ -56,6 +56,9 @@ p {
     font-size: 14pt;
     font-family: 'Source Sans Pro';
     cursor: default;
+    @media (max-width: 600px) {
+        font-size: 10pt;
+    }
 }
 
 .p-small p {
@@ -84,7 +87,16 @@ h3 {
     font-family: 'Changa';
     font-weight: bold;
     text-transform: uppercase;
-    margin-top: 25px;
+    margin-top: 40px;
+    @media (max-width: 840px) {
+        margin-top: 10%;
+        margin-bottom: 4%;
+    }
+    @media (max-width: 600px) {
+        font-size: 18pt;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
 }
 
 h4 {
@@ -92,6 +104,9 @@ h4 {
     font-family: 'Changa';
     text-transform: uppercase;
     cursor: default;
+    @media (max-width: 600px) {
+        font-size: 12pt;
+    }
 }
 
 h5 {
@@ -165,12 +180,15 @@ h6 {
 /***** NAVBAR *****/
 
 .navbar {
-    height: 150px;
+    height: 156px;
+    background: rgba(255, 255, 255, 0.7);
+    width: 100vw;
+    z-index: 100;
 }
 
 .navbar ul {
     list-style-type: none;
-    margin: 0 0 0 auto;
+    margin: 0 2% 0 auto;
     padding-right: 0;
     padding-left: 0;
 }
@@ -178,7 +196,8 @@ h6 {
 .navbar ul li {
     display: inline-block;
     height: 100%;
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .navbar ul li a:hover {
@@ -193,13 +212,14 @@ h6 {
 
 .navbar ul li a{
     display: inline-block;
-    font-size: 18pt;
+    font-size: 16pt;
     color: $dark-grey;
     text-align: center;
-    padding: 52px 25px 0 25px;
+    padding: 58px 25px 0 25px;
     text-decoration: none;
     height: 100%;
 }
+
 
 /***** BUTTONS *****/
 
@@ -230,6 +250,12 @@ html {
 body {
     height: 2800px;
     position: relative;
+    @media (max-width: 840px) {
+        height: 2300px;
+    }
+    @media (max-width: 600px) {
+        height: 1940px;
+    }
 }
 .sea {
     background: url(../img/photos/background-index.jpg) no-repeat;
@@ -336,6 +362,10 @@ body {
     margin: 5px;
 }
 
+.contact-footer {
+    padding-top: 35px;
+}
+
 .footer-resp p {
     font-size: 12pt;
     margin-top: 20px;
@@ -345,13 +375,48 @@ a.mentions:link{
     text-decoration: none;
 }
 
+.align-footer {
+    padding-top: 30px;
+}
+
+.align-footer-p {
+    margin-top: 24px;
+}
+
+.ancre-footer {
+    padding-top: 30px;
+}
+
 footer {
     width: 100vw;
     height: 450px;
     bottom: 0;
+    // padding-top: 10px;
     @media (max-width: 840px) {
         height : 270px;
     }
+}
+.mail-footer {
+    color: $dark-grey;
+    padding: 3% 2% 3% 4%;
+    width: 250px;
+}
+
+button[type=submit] {
+    background-color: transparent;
+    border: none;
+}
+
+.send-button {
+    background: url(../img/picto/button/send-grey.svg) no-repeat center;
+    height: 43px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.send-button:hover {
+    background: url(../img/picto/button/send-clear.svg) no-repeat center;
+    transition: 0.8s;
 }
 
 .logo-fb-footer {
@@ -362,8 +427,8 @@ footer {
 }
 
 .logo-fb-footer:hover {
-        background: url(../img/picto/fb-hover.svg) no-repeat center;
-        transition: 0.6s;
+    background: url(../img/picto/fb-hover.svg) no-repeat center;
+    transition: 0.6s;
 }
 
 .logo-insta-footer {
@@ -407,4 +472,14 @@ footer {
 .logo-insta-resp:hover {
     background: url(../img/picto/insta-hover.svg) no-repeat center;
     transition: 0.6s;
+}
+
+/***** Page LBSM *****/
+
+.bsm-hero {
+    background: url(../img/photos/bsm-hero.jpg) no-repeat center;
+    height: 100vh;
+    background-size: cover;
+    margin-top: 156px;
+    
 }

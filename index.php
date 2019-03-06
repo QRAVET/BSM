@@ -16,8 +16,6 @@
 
     <!-- Import CSS perso -->
     <link rel="stylesheet" href="./css/style.css">
-    
-    <!-- Surcharge SPECTRE -->
 
 </head>
 <body class="sea"> 
@@ -45,6 +43,7 @@
         <div class="button-white-down col-mx-auto hide-md tooltip" data-tooltip="Sens de la visite">
             <a href="#menu-lbsm"><img src="img/picto/button/button-white.svg" alt="ancre-section-suivante"></a>
         </div>
+
         <div class="columns p-small white h3-accueil">
             <div class="column col-3 col-ml-auto hide-md">
                 <div id="menu-programmation" class="text-right">
@@ -70,7 +69,7 @@
             </div>
             <div class="column col-3 col-mr-auto hide-md">
                 <div id="menu-lbsm" class="text-left">
-                    <a href=""><h3>la base sous marine</h3></a>
+                    <a href="lbsm.php"><h3>la base sous marine</h3></a>
                     <h4>histoire</h4>
                     <p>Passez en revue les grandes dates qui ont fait l’Histoire de ce lieu aux proportions hors-normes.</p>
                     <h4>PROJETS FUTURS</h4>
@@ -92,18 +91,45 @@
             </div>
         </div>
         <!-- Page version Mobile/Tablette-->
-        <div class="columns mobile">
+        <div class="columns mobile show-md">
             <div class="column col-md-12">
                 <div class="column col-7 col-mx-auto">
                     <div class="divider"></div>
                 </div>
             </div>
             <div class="column col-10 col-mx-auto text-left">
-                <a href=""><h3><i class="fas fa-chevron-circle-right yellow-bsm"></i> la base sous marine</h3></a>
+                <a href="lbsm.php"><h3><i class="fas fa-chevron-circle-right yellow-bsm"></i> la base sous marine</h3></a>
                 <h4>histoire</h4>
                 <p>Passez en revue les grandes dates qui ont fait l’Histoire de ce lieu aux proportions hors-normes.</p>
                 <h4>PROJETS FUTURS</h4>
                 <p>Découvrez les projets d'aujourd'hui qui façonnent la Base de demain.</p>
+            </div>
+            <div class="column col-10 col-mx-auto text-left">
+                <a href=""><h3><i class="fas fa-chevron-circle-right yellow-bsm"></i> programmation</h3></a>
+                <h4>medio acqua</h4>
+                <p>Parcourez l'exposition du moment.</p>
+                <h4>évènements</h4>
+                <p>Accèdez à la programmation variée et éclectique d’évènements de la Base Sous-marine.</p>
+            </div>
+            <div class="column col-10 col-mx-auto text-left">
+                <a href=""><h3><i class="fas fa-chevron-circle-right yellow-bsm"></i> votre visite</h3></a>
+                <h4>tarifs</h4>
+                <p>Conditions et tarifs aux évènements et expositions permanantes.</p>
+                <h4>horaires</h4>
+                <p>Renseignez-vous sur la saisonnalité des expositions permanantes et des évènements.</p>
+                <h4>visite guidée</h4>
+                <p>Plannifiez une visite guidée et partagez un moment unique avec notre équipe de médiateurs culturels.</p>
+                <h4>accèssibilité</h4>
+                <p>Rendez-nous visite à pied, en bus, voiture ou tramway.</p>
+                <h4>à proximité</h4>
+                <p>Découvrez les lieux tendances qui animent le quartier des Bassins à Flots.</p>
+            </div>
+            <div class="column col-10 col-mx-auto text-left">
+                <a href=""><h3><i class="fas fa-chevron-circle-right yellow-bsm"></i> contact</h3></a>
+                <h4>réseaux sociaux</h4>
+                <p>Retrouvez l’actualité de la Base Sous-marine sur les réseaux sociaux.</p>
+                <h4>partenaires</h4>
+                <p>Partagez-nous vos idées et faites partie de l’aventure de la BSM, en tant qu’artiste, mécène, colléctivité ou association.</p>
             </div>
         </div>
 

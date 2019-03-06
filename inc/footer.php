@@ -7,10 +7,10 @@
                 <p>Recevez nos bons plans par e-mail grâce à notre newsletter mensuelle.</p>
                 <div class="columns">
                     <div class="column col-6">
-                        <input type="text" name="email" placeholder="...Votre e-mail">
+                        <input type="text" name="email" placeholder="Votre e-mail ..." class="mail-footer">
                     </div>
                     <div class="column col-6">
-                        <button class="text-uppercase" type="submit">Envoyer</button>
+                        <button class="text-uppercase send-button" type="submit"></button>
                     </div>
                 </div>
             </div>
@@ -26,18 +26,18 @@
                 </div>
             </div>
             <div class="column col-1"></div>
-            <div class="column col-2">
+            <div class="column col-2 ancre-footer">
                 <div class="button-white-up col-mx-auto tooltip" data-tooltip="Vers la surface ...">
                     <a href=""><img src="img/picto/button/button-white-up.svg" alt="haut-de-page"></a>
                 </div>
                 <p class="text-center">Haut de page</p>
             </div>
         </div>
-        <div class="columns">
+        <div class="columns align-footer">
             <div class="column col-9">
                 <div class="divider"></div>
                 <div class="text-center">
-                    <p>Bassins à flot - Bacalan - Boulevard Alfred Daney 33000 BORDEAUX - <i class="fas fa-phone white"></i>  tél : 05.56.11.11.50</p>
+                    <p class="align-footer-p">Bassins à flot - Bacalan - Boulevard Alfred Daney 33000 BORDEAUX - <i class="fas fa-phone white"></i>  tél : 05.56.11.11.50</p>
                 </div>
                 <div class="columns">
                     <div class="column col-6 col-mx-auto">
