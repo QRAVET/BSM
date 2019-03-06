@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> <span class="text-bold"></span>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
@@ -25,9 +25,9 @@
         <?php include './inc/burger.php' ?>
 
         <!-- Section image hero -->
-        <div class="columns">
-            <div class="button-white-down col-mx-auto hide-md tooltip" data-tooltip="En savoir plus">
-                <a href="#menu-lbsm"><img src="img/picto/button/button-white.svg" alt="ancre-section-suivante"></a>
+        <div class="columns p-relative box-view">
+            <div class="button-down hide-md tooltip" data-tooltip="En savoir plus">
+                <a href=""><img src="img/picto/button/button-white.svg" alt="ancre-section-suivante"></a>
             </div>
         </div>
         <div class="columns bsm-hero"></div>
@@ -35,7 +35,24 @@
         <!-- page classique -->
         <div class="columns">
             <div class="container grid-xl">
-
+                <div class="columns">
+                    <h2>la base sous-marine</h2>
+                    <h3>Un lieu chargé d’histoire où le passé fait vibrer l’avenir </h3>
+                    <p class="text-justify">Active à peine plus d’<span class="text-bold">un an pendant l’Occupation</span>, la Base sous-marine de Bordeaux cristallise encore les souvenirs 
+                        douloureux des heures sombres du Port de la Lune. Le bunker attire pourtant <span class="text-bold">depuis les années 1960</span> des artistes, 
+                        cinéastes, plasticiens et musiciens fascinés par <span class="text-bold">l’esprit du lieu</span>. Institutionnalisée au début des années 1990, 
+                        la base sous-marine devient un espace dédié au nautisme avant d’être consacrée à <span class="text-bold">l’art contemporain</span> au début du XXIe siècle.</p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="columns">
+                    <div class="column col-6 col-md-12 bg-blue-green text-center white">
+                        <h3>histoire</h3>
+                    </div>
+                    <div class="column col-6 col-md-12 bg-yellow-bsm text-center white">
+                        <h3>projets</h3>
+                    </div>
+                </div>
             </div>
         </div>
 

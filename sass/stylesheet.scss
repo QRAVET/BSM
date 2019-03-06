@@ -236,12 +236,13 @@ h6 {
 
 /***** BUTTONS *****/
 
-.button-white-down {
+.button-down {
     height: 80px;
     width: 80px;
     position: absolute;
     top: 820px;
-    right: 5%;
+    right: 48%;
+    left: 48%;
 }
 
 .button-white-up {
@@ -255,6 +256,13 @@ h6 {
 }
 
 /***** ACCUEIL *****/
+.button-white-down {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    top: 820px;
+    right: 5%;
+}
 
 html {
     scroll-behavior: smooth;
@@ -506,6 +514,5 @@ button[type=submit] {
     background: url(../img/photos/bsm-hero.jpg) no-repeat center;
     height: 100vh;
     background-size: cover;
-    margin-top: 150px;
-    
+    padding-top: 150px;
 }
