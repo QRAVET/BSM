@@ -360,6 +360,7 @@ body {
 
 .menu-footer p {
     margin: 5px;
+    cursor: pointer;
 }
 
 .contact-footer {
@@ -371,8 +372,19 @@ body {
     margin-top: 20px;
 }
 
-a.mentions:link{
+.menu-footer a:link, .menu-footer a:visited{
     text-decoration: none;
+    color: white;
+    cursor: pointer;
+    :hover {
+        color: $yellow-bsm
+    }
+}
+
+.mentions a:link, .mentions a:visited{
+    text-decoration: none;
+    color: $light-grey;
+    cursor: pointer;
 }
 
 .align-footer {

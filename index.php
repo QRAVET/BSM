@@ -47,14 +47,14 @@
         <div class="columns p-small white h3-accueil">
             <div class="column col-3 col-ml-auto hide-md">
                 <div id="menu-programmation" class="text-right">
-                    <a href=""><h3>programmation</h3></a>
+                    <a href="programmation.php"><h3>programmation</h3></a>
                     <h4>medio acqua</h4>
                     <p>Parcourez l'exposition du moment.</p>
                     <h4>évènements</h4>
                     <p>Accèdez à la programmation variée et éclectique d’évènements de la Base Sous-marine.</p>
                 </div>
                 <div id="menu-contact" class="text-right">
-                    <a href=""><h3>contact</h3></a>
+                    <a href="contact.php"><h3>contact</h3></a>
                     <h4>réseaux sociaux</h4>
                     <p>Retrouvez l’actualité de la Base Sous-marine sur les réseaux sociaux.</p>
                     <h4>partenaires</h4>
@@ -76,7 +76,7 @@
                     <p>Découvrez les projets d'aujourd'hui qui façonnent la Base de demain.</p>
                 </div>
                 <div id="menu-visite" class="text-left">
-                    <a href=""><h3>votre visite</h3></a>
+                    <a href="visite.php"><h3>votre visite</h3></a>
                     <h4>tarifs</h4>
                     <p>Conditions et tarifs aux évènements et expositions permanantes.</p>
                     <h4>horaires</h4>

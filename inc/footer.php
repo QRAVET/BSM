@@ -1,3 +1,6 @@
+<style>/* surchage spectre */
+
+</style>
 <!-- Footer version PC -->
 <footer class="columns bg-dark-grey white p-absolute hide-md">    
     <div class="container grid-xl">
@@ -18,11 +21,11 @@
             <div class="column col-3">
                 <h3 class="text-uppercase text-bold blue-green">navigation :</h3>
                 <div class="menu-footer">
-                    <p>Accueil</p>
-                    <p>La Base sous-marine</p>
-                    <p>Programmation</p>
-                    <p>Votre visite</p>
-                    <p>Contact</p>
+                    <a href="index.php"><p>Accueil</p></a>
+                    <a href="lbsm.php"><p>La Base sous-marine</p></a>
+                    <a href="programmation.php"><p>Programmation</p></a>
+                    <a href="visite.php"><p>Votre visite</p></a>
+                    <a href="contact.php"><p>Contact</p></a>
                 </div>
             </div>
             <div class="column col-1"></div>
@@ -61,7 +64,7 @@
 <footer class="white bg-dark-grey p-absolute show-md footer-resp">
     <div class="container grid-xl">
         <div class="columns">
-            <div class="column col-md-12 text-center mentions">
+            <div class="column col-md-12 text-center light-grey mentions">
                 <p>&#x24B8;LaBaseSousMarine_2019 - <a href="mentionslegales" target="_blank" class="">Mentions légales</a></p>
             </div>
             <div class="column col-md-12">
@@ -69,8 +72,8 @@
                     <div class="divider"></div>
                 </div>
             </div>
-            <div class="column col-md-12 text-center mentions">
-                <p><i class="fas fa-phone white"></i> - tél : 05.56.11.11.50</a></p>
+            <div class="column col-md-12 text-center blue-green text-bold mentions">
+                <p><i class="fas fa-phone "></i> - tél : 05.56.11.11.50</a></p>
             </div>
         </div>
         <div class="columns">

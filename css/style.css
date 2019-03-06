@@ -378,6 +378,7 @@ body {
 /***** FOOTER *****/
 .menu-footer p {
   margin: 5px;
+  cursor: pointer;
 }
 
 .contact-footer {
@@ -389,8 +390,19 @@ body {
   margin-top: 20px;
 }
 
-a.mentions:link {
+.menu-footer a:link, .menu-footer a:visited {
   text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+.menu-footer a:link :hover, .menu-footer a:visited :hover {
+  color: #f4c55c;
+}
+
+.mentions a:link, .mentions a:visited {
+  text-decoration: none;
+  color: #818284;
+  cursor: pointer;
 }
 
 .align-footer {
