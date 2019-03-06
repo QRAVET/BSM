@@ -4,7 +4,7 @@
 <!-- Footer version PC -->
 <footer class="columns bg-dark-grey white p-absolute hide-md">    
     <div class="container grid-xl">
-        <div class="columns">
+        <div class="columns h3-accueil">
             <div class="column col-5">
                 <h3 class="text-uppercase text-bold blue-green">restez connectés :</h3>
                 <p>Recevez nos bons plans par e-mail grâce à notre newsletter mensuelle.</p>

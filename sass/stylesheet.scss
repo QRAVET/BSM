@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Changa:400,700');
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700');
 
-/***** COULEURS *****/
+/***** COLORS *****/
 
 $light-grey: #818284;
 $medium-grey:#414140;
@@ -51,7 +51,7 @@ $yellow-bsm:#f4c55c;
     background-color: $yellow-bsm;
 }
 
-/***** FONT & TITRES *****/
+/***** FONT & TITLES *****/
 p {
     font-size: 14pt;
     font-family: 'Source Sans Pro';
@@ -70,16 +70,18 @@ p {
 h1 {
     font-size: 50pt;
     font-family: 'Changa';
+    font-weight: bold;
     color: $dark-grey;
     text-transform: uppercase;
 }
 
 h2 {
-    font-size: 40pt;
+    font-size: 45pt;
     font-family: 'Changa';
     font-weight: bold;
     color: $dark-grey;
     text-transform: uppercase;
+    margin-top: 12%;
 }
 
 h3 {
@@ -87,7 +89,6 @@ h3 {
     font-family: 'Changa';
     font-weight: bold;
     text-transform: uppercase;
-    margin-top: 40px;
     @media (max-width: 840px) {
         margin-top: 10%;
         margin-bottom: 4%;
@@ -121,6 +122,25 @@ h6 {
     font-family: 'Source Sans Pro';
     font-weight: bold;
     text-transform: uppercase;
+}
+
+.shadow {
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.white a:link, .white a:visited{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.medium-grey a:link, .medium-grey a:visited{
+    text-decoration: none;
+    color: $medium-grey;
+    cursor: pointer;
+    :hover {
+        color: $yellow-bsm;
+    }
 }
 
 /***** LOGOS & PICTOS *****/
@@ -256,6 +276,7 @@ h6 {
 }
 
 /***** ACCUEIL *****/
+
 .button-white-down {
     height: 80px;
     width: 80px;
@@ -278,6 +299,7 @@ body {
         height: 1940px;
     }
 }
+
 .sea {
     background: url(../img/photos/background-index.jpg) no-repeat;
     margin: 0;
@@ -302,6 +324,10 @@ body {
         letter-spacing: initial;
         writing-mode: initial;
     }
+}
+
+.h3-accueil {
+    margin-top: 40px;
 }
 
 .h3-accueil a{
@@ -424,7 +450,6 @@ footer {
     width: 100vw;
     height: 450px;
     bottom: 0;
-    // padding-top: 10px;
     @media (max-width: 840px) {
         height : 270px;
     }
@@ -511,8 +536,115 @@ button[type=submit] {
 /***** Page LBSM *****/
 
 .bsm-hero {
-    background: url(../img/photos/bsm-hero.jpg) no-repeat center;
+    background: url(../img/photos/page-lbsm/bsm-hero.jpg) no-repeat center;
     height: 100vh;
     background-size: cover;
     padding-top: 150px;
 }
+
+.h1-hero-bsm {
+    width: 600px;
+    text-align: right;
+    margin: 5% 0 0 auto;
+}
+
+.intro-lbsm {
+    // margin-top: 12%;
+    margin-bottom: 2%;
+}
+
+.h3-auto h3 {
+    margin-top: 55px;
+    text-decoration: none;
+}
+/*Button menu page */
+    .hover-histoire {
+        background-color: $blue-green;
+        height: 150px;
+    }
+
+    .hover-histoire a {
+        height: 150px;
+    }
+
+    .hover-histoire:hover {
+        background: url(../img/photos/page-lbsm/bsm-hover-histoire2.jpg) no-repeat;
+        background-size: cover;
+        background-position: center;
+        transition: 0.5s;
+    }
+
+        /* Button menu page */
+
+        .hover-projets {
+            background-color: $yellow-bsm;
+            height: 150px;
+        }
+
+        .hover-projets a {
+            height: 150px;
+        }
+
+        .hover-projets:hover {
+            background: url(../img/photos/page-lbsm/bsm-hover-projets.jpg) no-repeat;
+            background-size: cover;
+            background-position: center;
+            transition: 0.5s;
+        }
+        /* end button menu */
+
+
+.text-lbsm-left {
+    padding-right: 10%;
+}
+
+.text-lbsm-right {
+    padding-left: 10%;
+}
+
+.bloc {
+    margin-top: 30px;
+}
+
+    /* Text highlighted on paragraphs */
+
+    .text-highlight {
+        margin-top: -30px;
+    }
+
+    .text-highlight-number {
+        margin-top: -30px;
+        margin-bottom: -60px;
+    }
+
+    .text-number {
+        font-size: 180pt;
+        padding-left: 0;
+        margin-top: -62px;
+        margin-left: -15px;
+    }
+
+    .text-1 {
+        font-size: 80pt;
+    }
+
+    .text-2 {
+        font-size: 36pt;
+    }
+
+    .text-3 { 
+        font-size: 70pt;
+    }
+
+    .text-4 {
+        font-size: 18pt;
+    }
+
+    .exposant {
+        font-size: 75%;
+        position: relative;
+        line-height: 0;
+        vertical-align: baseline;
+        top: 0.6em;
+    }
+    /* end highlight */
