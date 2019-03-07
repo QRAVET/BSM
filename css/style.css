@@ -299,17 +299,17 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
+.body-accueil {
   height: 2800px;
   position: relative;
 }
 @media (max-width: 840px) {
-  body {
+  .body-accueil {
     height: 2300px;
   }
 }
 @media (max-width: 600px) {
-  body {
+  .body-accueil {
     height: 1940px;
   }
 }
@@ -556,6 +556,21 @@ button[type=submit] {
 }
 
 /***** Page LBSM *****/
+.body-bsm {
+  height: 6650px;
+  position: relative;
+}
+@media (max-width: 840px) {
+  .body-bsm {
+    height: 2300px;
+  }
+}
+@media (max-width: 600px) {
+  .body-bsm {
+    height: 1940px;
+  }
+}
+
 .bsm-hero {
   background: url(../img/photos/page-lbsm/bsm-hero.jpg) no-repeat center;
   height: 100vh;
@@ -575,6 +590,11 @@ button[type=submit] {
 
 .h3-auto h3 {
   margin-top: 55px;
+  text-decoration: none;
+}
+
+.h3-auto-big h3 {
+  margin-top: 115px;
   text-decoration: none;
 }
 
@@ -622,7 +642,7 @@ button[type=submit] {
 }
 
 .bloc {
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 /* Text highlighted on paragraphs */
@@ -687,5 +707,94 @@ button[type=submit] {
 }
 
 /* end highlight */
+/***** Page VISITE *****/
+.body-visite {
+  height: 4000px;
+}
+
+.size-menu-hover {
+  height: 300px;
+}
+
+/*Button menu page */
+.hover-tarifs {
+  background-color: #5cafa6;
+  height: 150px;
+}
+
+.hover-tarifs a {
+  height: 150px;
+}
+
+.hover-tarifs:hover {
+  background: url(../img/photos/page-lbsm/bsm-hover-histoire2.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s;
+}
+
+.hover-horaires {
+  background-color: #5cafa6;
+  height: 150px;
+}
+
+.hover-horaires a {
+  height: 150px;
+}
+
+.hover-horaires:hover {
+  background: url(../img/photos/page-lbsm/bsm-hover-histoire2.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s;
+}
+
+.hover-visite {
+  background-color: #5cafa6;
+  height: 150px;
+}
+
+.hover-visite a {
+  height: 150px;
+}
+
+.hover-visite:hover {
+  background: url(../img/photos/page-lbsm/bsm-hover-histoire2.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s;
+}
+
+.hover-access {
+  background-color: #5cafa6;
+  height: 150px;
+}
+
+.hover-access a {
+  height: 150px;
+}
+
+.hover-access:hover {
+  background: url(../img/photos/page-lbsm/bsm-hover-histoire2.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s;
+}
+
+.hover-proxy {
+  background-color: #5cafa6;
+  height: 150px;
+}
+
+.hover-proxy a {
+  height: 150px;
+}
+
+.hover-proxy:hover {
+  background: url(../img/photos/page-lbsm/bsm-hover-histoire2.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s;
+}
 
 /*# sourceMappingURL=style.css.map */

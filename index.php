@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="./css/style.css">
 
 </head>
-<body class="sea"> 
+<body class="sea body-accueil"> 
     <div class="container">
 
         <!-- Page version PC -->
@@ -105,14 +105,14 @@
                 <p>Découvrez les projets d'aujourd'hui qui façonnent la Base de demain.</p>
             </div>
             <div class="column col-10 col-mx-auto text-left">
-                <a href=""><h3><i class="fas fa-chevron-circle-right yellow-bsm"></i> programmation</h3></a>
+                <a href="programmation.php"><h3><i class="fas fa-chevron-circle-right yellow-bsm"></i> programmation</h3></a>
                 <h4>medio acqua</h4>
                 <p>Parcourez l'exposition du moment.</p>
                 <h4>évènements</h4>
                 <p>Accèdez à la programmation variée et éclectique d’évènements de la Base Sous-marine.</p>
             </div>
             <div class="column col-10 col-mx-auto text-left">
-                <a href=""><h3><i class="fas fa-chevron-circle-right yellow-bsm"></i> votre visite</h3></a>
+                <a href="visite.php"><h3><i class="fas fa-chevron-circle-right yellow-bsm"></i> votre visite</h3></a>
                 <h4>tarifs</h4>
                 <p>Conditions et tarifs aux évènements et expositions permanantes.</p>
                 <h4>horaires</h4>
@@ -125,7 +125,7 @@
                 <p>Découvrez les lieux tendances qui animent le quartier des Bassins à Flots.</p>
             </div>
             <div class="column col-10 col-mx-auto text-left">
-                <a href=""><h3><i class="fas fa-chevron-circle-right yellow-bsm"></i> contact</h3></a>
+                <a href="contact.php"><h3><i class="fas fa-chevron-circle-right yellow-bsm"></i> contact</h3></a>
                 <h4>réseaux sociaux</h4>
                 <p>Retrouvez l’actualité de la Base Sous-marine sur les réseaux sociaux.</p>
                 <h4>partenaires</h4>
