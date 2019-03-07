@@ -28,7 +28,7 @@
         <!-- Section premier viewport -->
         <div class="columns p-relative">
             <div class="button-down hide-md tooltip" data-tooltip="En savoir plus">
-                <a href="#intro"><img src="img/picto/button/button-grey.svg" alt="ancre-section-suivante"></a>
+                <a href="#tarifs"><img src="img/picto/button/button-grey.svg" alt="ancre-section-suivante"></a>
             </div>
         </div>
         <div class="columns h1-page">
@@ -53,7 +53,54 @@
         </div>
 
     </div><!-- fin de container -->
-    
+
+    <!-- Section TARIFS-->
+    <div class="container grid-xl">
+        <div class="columns section-1" id="tarifs">
+            <div class="column col-6 col-md-12">
+                <figure class="figure">
+                    <img src="./img/photos/page-visite/tarifs.jpg" alt="photo-bassins-bsm" class="img-responsive">
+                </figure>
+            </div>
+            <div class="column col-6 col-md-12 text-lbsm-right">
+                <h3>tarifs</h3>
+                <p><span class="text-uppercase">PENDANT LES EXPOSITIONS :</span><br><span class="text-bold">Plein tarif : 5€<br>Tarif réduit : 3€<br></span>
+                Gratuit le 1er dimanche du mois ( hors juillet et août)<br><br>
+                    Pass Musées Bordeaux : accès illimité<br>Carte jeunes Bordeaux : accès illimité<br><br>Pour les visites de groupe, merci de nous contacter 
+                    par mail ou par téléphone au préalable.</p>
+            </div>
+        </div>
+        <div class="columns bloc" id="horaires">
+            <div class="column col-6 col-md-12 text-lbsm-left">
+                <h3>horaires</h3>
+                <p><span class="text-uppercase">HEURES D’OUVERTURES PENDANT LES EXPOSITIONS :</span><br><br><span class="text-bold">Du mardi au dimanche de 13h30 à 19h
+                    <br>Fermé les lundis et jours fériés<br><br></span><span class="text-uppercase">HORS PÉRIODE D’EXPOSITION :</span>
+                    <br><br>Le centre culturel de La Base Sous-marine est fermé lorsqu’il n’y a pas d’exposition.</p>
+            </div>
+            <?php include './inc/calendar.php' ?>
+        </div>
+        <div class="columns">
+            <div class="column col-6 col-mr-auto text-justify">
+                <p>Retrouvez l’intégralité des informations concernant l’exposition du moment ainsi que le détail des évènements de la Base sous-marine dans nos sections dédiées :</p>
+            </div>
+        </div>
+        <div class="columns white">
+            <a class="column col-6 col-md-12 text-center h3-auto hover-medioacqua" href="#medioacqua"><h3>medio acqua</h3></a>
+            <a class="column col-6 col-md-12 text-center h3-auto hover-events" href="#events"><h3>évènements</h3></a>
+        </div>
+        <div class="columns" id="visite">
+            <div class="column col-6 col-md-12"></div>
+            <div class="column col-6 col-md-12"></div>
+        </div>
+        <div class="columns" id="access">
+            <div class="column col-6 col-md-12"></div>
+            <div class="column col-6 col-md-12"></div>
+        </div>
+        <div class="columns" id="proxy">
+            <div class="column col-6 col-md-12"></div>
+            <div class="column col-6 col-md-12"></div>
+        </div>
+    </div>
 
     <!-- footer -->
     <?/*php include './inc/footer.php' */?>

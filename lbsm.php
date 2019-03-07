@@ -17,7 +17,6 @@
     <!-- Import CSS perso -->
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" type="image/x-icon" href="./img/picto/logo-bsm-color.svg">
-
 </head>
 <body class="body-bsm">
     <div class="container">
@@ -50,12 +49,11 @@
                 </div>
             </div>
         </div>
+
         <!-- Buttons picture hover -->
-        <div class="container">
-            <div class="columns white">
-                <a class="column col-6 col-md-12 text-center h3-auto hover-histoire" href="#histoire"><h3>histoire</h3></a>
-                <a class="column col-6 col-md-12 text-center h3-auto hover-projets" href="#projets"><h3>projets</h3></a>
-            </div>
+        <div class="columns white">
+            <a class="column col-6 col-md-12 text-center h3-auto hover-histoire" href="#histoire"><h3>histoire</h3></a>
+            <a class="column col-6 col-md-12 text-center h3-auto hover-projets" href="#projets"><h3>projets</h3></a>
         </div>
 
         <!-- SECTION HISTOIRE -->
