@@ -591,11 +591,17 @@ button[type=submit] {
 .h3-auto h3 {
   margin-top: 55px;
   text-decoration: none;
+  width: 100%;
 }
 
 .h3-auto-big h3 {
-  margin-top: 115px;
+  margin-top: 120px;
   text-decoration: none;
+  width: 100%;
+}
+
+.h3-auto-big {
+  height: 300px;
 }
 
 /*Button menu page */
@@ -713,17 +719,17 @@ button[type=submit] {
 }
 
 .size-menu-hover {
-  height: 300px;
+  height: 260px;
 }
 
 /*Button menu page */
 .hover-tarifs {
   background-color: #5cafa6;
-  height: 150px;
+  height: 130px;
 }
 
 .hover-tarifs a {
-  height: 150px;
+  height: 130px;
 }
 
 .hover-tarifs:hover {
@@ -735,11 +741,11 @@ button[type=submit] {
 
 .hover-horaires {
   background-color: #5cafa6;
-  height: 150px;
+  height: 130px;
 }
 
 .hover-horaires a {
-  height: 150px;
+  height: 130px;
 }
 
 .hover-horaires:hover {
@@ -750,12 +756,12 @@ button[type=submit] {
 }
 
 .hover-visite {
-  background-color: #5cafa6;
-  height: 150px;
+  background-color: #414140;
+  height: 260px;
 }
 
 .hover-visite a {
-  height: 150px;
+  height: 260px;
 }
 
 .hover-visite:hover {
@@ -766,12 +772,12 @@ button[type=submit] {
 }
 
 .hover-access {
-  background-color: #5cafa6;
-  height: 150px;
+  background-color: #f4c55c;
+  height: 130px;
 }
 
 .hover-access a {
-  height: 150px;
+  height: 130px;
 }
 
 .hover-access:hover {
@@ -783,11 +789,11 @@ button[type=submit] {
 
 .hover-proxy {
   background-color: #5cafa6;
-  height: 150px;
+  height: 130px;
 }
 
 .hover-proxy a {
-  height: 150px;
+  height: 130px;
 }
 
 .hover-proxy:hover {
@@ -795,6 +801,10 @@ button[type=submit] {
   background-size: cover;
   background-position: center;
   transition: 0.5s;
+}
+
+.h1-page {
+  margin: 14% 0 0 auto;
 }
 
 /*# sourceMappingURL=style.css.map */

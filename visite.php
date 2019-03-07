@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Votre visite</title>
 
     <!-- Import FrameWork SPECTRE -->
     <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
@@ -16,6 +16,7 @@
 
     <!-- Import CSS perso -->
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./img/picto/logo-bsm-color.svg">
 
 </head>
 <body class="body-visite">
@@ -30,35 +31,28 @@
                 <a href="#intro"><img src="img/picto/button/button-grey.svg" alt="ancre-section-suivante"></a>
             </div>
         </div>
+        <div class="columns h1-page">
+            <div class="container text-center">
+                <h1>votre visite</h1>
+            </div>
+        </div>
+
+        <!-- Buttons picture hover -->
         <div class="columns">
-            <div class="container grid-xl text-center">
-                <h1>programmation</h1>
+            <div class="column col-4 size-menu-hover white">
+                <a class="columns text-center h3-auto hover-tarifs" href="#tarifs"><h3>tarifs</h3></a>
+                <a class="columns text-center h3-auto hover-horaires" href="#horaires"><h3>horaires</h3></a>
+            </div>
+            <div class="column col-4 white"">
+                <a class="columns text-center h3-auto-big hover-visite" href="#visite"><h3>visite guidée</h3></a>
+            </div>
+            <div class="column col-4 white"">
+                <a class="columns text-center h3-auto hover-access" href="#access"><h3>accéssibilité</h3></a>
+                <a class="columns text-center h3-auto hover-proxy" href="#proxy"><h3>à proximité</h3></a>
             </div>
         </div>
-        <!-- Buttons picture hover -->
-        <div class="container">
-            <div class="columns white">
-                <a class="column col-6 col-md-12 text-center h3-auto hover-histoire" href="#histoire"><h3>histoire</h3></a>
-                <a class="column col-6 col-md-12 text-center h3-auto hover-projets" href="#projets"><h3>projets</h3></a>
-            </div>
-        </div>
-        <!-- Buttons picture hover -->
-        <div class="container">
-            <div class="columns medium-grey">
-                <div class="column col-4 size-menu-hover">
-                    <a class="column col-12 text-center h3-auto hover-tarifs" href="#tarifs"><h3>tarifs</h3></a>
-                    <a class="column col-12 text-center h3-auto hover-horaires" href="#horaires"><h3>horaires</h3></a>
-                </div>
-                <div class="column col-4">
-                    <a class="column col-12 text-center h3-auto-big hover-visite" href="#visite"><h3>visite guidée</h3></a>
-                </div>
-                <div class="column col-4">
-                    <a class="column col-12 text-center h3-auto hover-access" href="#access"><h3>accéssibilité</h3></a>
-                    <a class="column col-12 text-center h3-auto hover-proxy" href="#proxy"><h3>à proximité</h3></a>
-                </div>
-            </div>
-        </div>
-    </div>
+
+    </div><!-- fin de container -->
     
 
     <!-- footer -->

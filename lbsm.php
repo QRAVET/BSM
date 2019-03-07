@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>LBSM</title>
 
     <!-- Import FrameWork SPECTRE -->
     <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
@@ -16,6 +16,7 @@
 
     <!-- Import CSS perso -->
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./img/picto/logo-bsm-color.svg">
 
 </head>
 <body class="body-bsm">
