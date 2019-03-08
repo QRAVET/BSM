@@ -851,4 +851,40 @@ button[type=submit] {
   margin-top: 15%;
 }
 
+/*** PHOTO TEAM LBSM ***/
+.photo-profil-1 {
+  background: url(../img/photos/page-visite/team/profil-1.png) no-repeat center;
+  background-size: cover;
+  height: 225px;
+  width: 222px;
+}
+
+.photo-profil-2 {
+  background: url(../img/photos/page-visite/team/profil-2.png) no-repeat center;
+  background-size: cover;
+  height: 225px;
+  width: 222px;
+}
+
+.photo-profil-3 {
+  background: url(../img/photos/page-visite/team/profil-3.png) no-repeat center;
+  background-size: cover;
+  height: 225px;
+  width: 222px;
+}
+
+.photo-profil-4 {
+  background: url(../img/photos/page-visite/team/profil-4.png) no-repeat center;
+  background-size: cover;
+  height: 225px;
+  width: 222px;
+}
+
+.photo-profil-5 {
+  background: url(../img/photos/page-visite/team/profil-5.png) no-repeat center;
+  background-size: cover;
+  height: 225px;
+  width: 222px;
+}
+
 /*# sourceMappingURL=style.css.map */

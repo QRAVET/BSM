@@ -88,15 +88,68 @@
             <a class="column col-6 col-md-12 text-center h3-auto hover-medioacqua" href="#medioacqua"><h3>medio acqua</h3></a>
             <a class="column col-6 col-md-12 text-center h3-auto hover-events" href="#events"><h3>évènements</h3></a>
         </div>
-        <div class="columns" id="visite">
+        <div class="columns bloc" id="visite">
+            <div class="column col-12">
+                <h3>Visite guidée</h3>
+            </div>
+            <div class="column col-12">
+                <p>Notre équipe de <span class="text-bold">médiateurs culturels</span> vous accueille tous les mercredis 
+                de 17h à 18h et les samedis de 16h à 17h pendant les périodes d’exposition.<br>
+            Sans réservation, limité à 30 personnes.</p>
+            </div>
+
+            <!-- PROFIL 1 MEDIATEUR CULTUREL -->
+            <div class="column col-2 col-lg-12 col-mx-auto">
+                <div class="photo-profil-1">
+                </div>
+                <p class="text-center text-bold">Sébastien MIALE</p>
+                <p class="text-center">Régie des oeuvres<br>Médiateur culturel</p>
+            </div>
+            <!-- fin de profil 1 mediateur culturel -->
+
+            <!-- PROFIL 2 MEDIATEUR CULTUREL -->
+            <div class="column col-2 col-lg-6 col-mx-auto">
+                <div class="photo-profil-2">
+                </div>
+                <p class="text-center text-bold">Jessica LORA</p>
+                <p class="text-center">Médiatrice culturelle</p>
+            </div>
+            <!-- fin de profil 2 mediateur culturel -->
+
+            <!-- PROFIL 3 MEDIATEUR CULTUREL -->
+            <div class="column col-2 col-lg-6 col-mx-auto">
+                <div class="photo-profil-3">
+                </div>
+                <p class="text-center text-bold">Camille LEVY</p>
+                <p class="text-center">Médiatrice culturelle</p>
+            </div>
+            <!-- fin de profil 3 mediateur culturel -->
+
+            <!-- PROFIL 4 MEDIATEUR CULTUREL -->
+            <div class="column col-2 col-lg-6 col-mx-auto">
+                <div class="photo-profil-4">
+                </div>
+                <p class="text-center text-bold">Raphaël ROUSSET</p>
+                <p class="text-center">Médiateur culturel</p>
+            </div>
+            <!-- fin de profil 4 mediateur culturel -->
+            
+            <!-- PROFIL 5 MEDIATEUR CULTUREL -->
+            <div class="column col-2 col-lg-6 col-mx-auto">
+                <div class="photo-profil-5">
+                </div>
+                <p class="text-center text-bold">Maude NOUGARET</p>
+                <p class="text-center">Stagiaire<br>Médiateur culturel</p>
+            </div>
+            <!-- fin de profil 5 mediateur culturel -->
+        
+
+        </div>
+        <div class="columns bloc" id="access">
             <div class="column col-6 col-md-12"></div>
             <div class="column col-6 col-md-12"></div>
         </div>
-        <div class="columns" id="access">
-            <div class="column col-6 col-md-12"></div>
-            <div class="column col-6 col-md-12"></div>
-        </div>
-        <div class="columns" id="proxy">
+        <div class="columns bloc" id="proxy">
             <div class="column col-6 col-md-12"></div>
             <div class="column col-6 col-md-12"></div>
         </div>
