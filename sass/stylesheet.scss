@@ -122,7 +122,6 @@ h5 {
     font-size: 12pt;
     font-family: 'Changa';
     font-weight: bold;
-    text-transform: uppercase;
 }
 
 h6 {
@@ -703,7 +702,17 @@ button[type=submit] {
 /***** Page VISITE *****/
 
 .body-visite {
-    height: 4000px;
+    height: 4100px;
+    position: relative;
+    @media (max-width: 1200px) {
+        height: 4300px;
+    }
+    @media (max-width: 840px) {
+        height: 6000px;
+    }
+    @media (max-width: 600px) {
+        height: 6500px;
+    }
 }
 
 .size-menu-hover {
@@ -839,27 +848,177 @@ button[type=submit] {
         height: 225px;
         width: 222px;
     }
+
     .photo-profil-2 {
         background: url(../img/photos/page-visite/team/profil-2.png) no-repeat center;
         background-size: cover;
         height: 225px;
         width: 222px;
     }
+
     .photo-profil-3 {
         background: url(../img/photos/page-visite/team/profil-3.png) no-repeat center;
         background-size: cover;
         height: 225px;
         width: 222px;
     }
+
     .photo-profil-4 {
         background: url(../img/photos/page-visite/team/profil-4.png) no-repeat center;
         background-size: cover;
         height: 225px;
         width: 222px;
     }
+    
     .photo-profil-5 {
         background: url(../img/photos/page-visite/team/profil-5.png) no-repeat center;
         background-size: cover;
         height: 225px;
         width: 222px;
     }
+
+    .prenom {
+        margin-top: 15px;
+        margin-bottom: 8px;
+    }
+
+    /*** Accèssibilité ***/
+
+    .picto-tramb {
+        background: url(../img/picto/access/picto-tramb.svg) no-repeat center;
+        background-size: cover;
+        height: 120px;
+        width: 120px;
+    }
+
+    .picto-tramc {
+        background: url(../img/picto/access/picto-tramc.svg) no-repeat center;
+        background-size: cover;
+        height: 120px;
+        width: 120px;
+    }
+
+    .picto-vcub {
+        background: url(../img/picto/access/picto-vcub.svg) no-repeat center;
+        background-size: cover;
+        height: 120px;
+        width: 120px;
+    }
+
+    .picto-bus {
+        background: url(../img/picto/access/picto-bus.svg) no-repeat center;
+        background-size: cover;
+        height: 120px;
+        width: 120px;
+    }
+/***** Page PROGRAMMATION *****/
+
+.body-programmation {
+    height: 1950px;
+    position: relative;
+    @media (max-width: 1200px) {
+        height: 1600px;
+    }
+    @media (max-width: 840px) {
+        height: 1400px;
+    }
+    @media (max-width: 600px) {
+        height: 1300px;
+    }
+}
+
+.hover-events-big {
+    background-color: $yellow-dark;
+    height: 300px;
+}
+
+.hover-events-big a {
+    height: 300px;
+}
+
+.hover-events-big:hover {
+    background: url(../img/photos/page-visite/bsm-hover-events.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s;
+}
+
+.hover-medioacqua-big {
+    background-color: $blue-green;
+    height: 300px;
+}
+
+.hover-medioacqua-big a {
+    height: 300px;
+}
+
+.hover-medioacqua-big:hover {
+    background: url(../img/photos/page-visite/bsm-hover-medioacqua.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s;
+}
+
+/***** Page CONTACT *****/
+
+.body-contact {
+    height: 1950px;
+    position: relative;
+    @media (max-width: 1200px) {
+        height: 1600px;
+    }
+    @media (max-width: 840px) {
+        height: 1400px;
+    }
+    @media (max-width: 600px) {
+        height: 1300px;
+    }
+}
+
+.hover-social {
+    background-color: $blue-green;
+    height: 300px;
+}
+
+.hover-social a {
+    height: 300px;
+}
+
+.hover-social:hover {
+    background: url(../img/photos/page-contact/bsm-hover-social.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s;
+}
+
+.hover-contact {
+    background-color: $yellow-bsm;
+    height: 150px;
+}
+
+.hover-contact a {
+    height: 150px;
+}
+
+.hover-contact:hover {
+    background: url(../img/photos/page-contact/bsm-hover-contact.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s;
+}
+
+.hover-partners {
+    background-color: $yellow-dark;
+    height: 150px;
+}
+
+.hover-partners a {
+    height: 150px;
+}
+
+.hover-partners:hover {
+    background: url(../img/photos/page-contact/bsm-hover-partners.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: 0.5s;
+}

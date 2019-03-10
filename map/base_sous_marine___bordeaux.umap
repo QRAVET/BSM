@@ -1,0 +1,296 @@
+{
+  "type": "umap",
+  "properties": {
+    "easing": true,
+    "embedControl": true,
+    "fullscreenControl": true,
+    "searchControl": true,
+    "datalayersControl": true,
+    "zoomControl": true,
+    "slideshow": {},
+    "captionBar": false,
+    "limitBounds": {
+      "south": 44.827326,
+      "west": -0.64785,
+      "north": 44.884337,
+      "east": -0.483055
+    },
+    "tilelayer": {
+      "minZoom": 0,
+      "maxZoom": 18,
+      "attribution": "map data © [[http://osm.org/copyright|OpenStreetMap]] - Tiles courtesy of [[http://openstreetmap.se|OpenStreetMap Sweden]]",
+      "url_template": "https://{s}.tile.openstreetmap.se/hydda/full/{z}/{x}/{y}.png",
+      "name": "OSM Hydda",
+      "tms": false
+    },
+    "licence": "",
+    "description": "A promixité du centre culturel de la Base Sous-marine.",
+    "name": "Base Sous-marine - Bordeaux",
+    "displayPopupFooter": false,
+    "miniMap": false,
+    "moreControl": true,
+    "scaleControl": true,
+    "scrollWheelZoom": true,
+    "zoom": 6
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      2,
+      51
+    ]
+  },
+  "layers": [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "color": "Gold",
+              "iconClass": "Drop",
+              "iconUrl": "/uploads/pictogram/museum-24.png",
+              "showLabel": null
+            },
+            "name": "Base Sous-marine de Bordeaux",
+            "description": "Centre culturel"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.558865,
+              44.870059
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "color": "OrangeRed",
+              "iconClass": "Drop",
+              "iconUrl": "/uploads/pictogram/restaurant-24_1.png",
+              "showLabel": null,
+              "labelDirection": "right"
+            },
+            "name": "iBoat",
+            "description": "Restaurant atypique dans un ferry, salle de concert et club."
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.559106,
+              44.865991
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "color": "OrangeRed",
+              "iconClass": "Drop",
+              "iconUrl": "/uploads/pictogram/restaurant-24_1.png",
+              "showLabel": null
+            },
+            "name": "McDonald's",
+            "description": "Restaurant fast food, air de jeux."
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.565066,
+              44.869968
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "color": "OrangeRed",
+              "iconClass": "Drop",
+              "iconUrl": "/uploads/pictogram/restaurant-24_1.png",
+              "showLabel": null
+            },
+            "name": "Bistrot Régen",
+            "description": "Restaurant La Péniche"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.557991,
+              44.865162
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "color": "OrangeRed",
+              "iconClass": "Drop",
+              "iconUrl": "/uploads/pictogram/bar-24_1.png",
+              "showLabel": null
+            },
+            "name": "V and B - Bordeaux-Lac",
+            "description": "Bar et magasin concept, espace de dégustation, cave à vins et à bières."
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.560979,
+              44.873264
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "color": "DodgerBlue",
+              "iconClass": "Drop",
+              "iconUrl": "/uploads/pictogram/baseball-24_1.png",
+              "showLabel": null
+            },
+            "name": "Kidooland",
+            "description": "Parc de loisirs"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.561966,
+              44.870911
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "color": "DodgerBlue",
+              "iconClass": "Drop",
+              "iconUrl": "/uploads/pictogram/bicycle-24-white.png",
+              "showLabel": null
+            },
+            "name": "Stade Bordelais ASPTT - BMX",
+            "description": "Centre de loisirs :\nstadebordelais-bmx.com"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.567995,
+              44.872002
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "color": "DodgerBlue",
+              "iconClass": "Drop",
+              "iconUrl": "/uploads/pictogram/grocery-24_1.png",
+              "showLabel": null
+            },
+            "name": "Bordeaux-Lac",
+            "description": "Zone commerciale de Bordeaux-Lac"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.563167,
+              44.877145
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "iconClass": "Drop",
+              "color": "Purple",
+              "iconUrl": "/uploads/pictogram/lodging-24-white.png",
+              "showLabel": null
+            },
+            "name": "Apparteo Bordeaux",
+            "description": "Location d'appartements, partenaire Booking :\napparteo.travel\n"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.556092,
+              44.869143
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "color": "Purple",
+              "iconClass": "Drop",
+              "iconUrl": "/uploads/pictogram/lodging-24-white.png"
+            },
+            "name": "Radisson Blu Hôtel Bordeaux",
+            "description": "Radissonblu.com\n63 rue Lucien Faure- Dock, 33000 Bordeaux"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.558538,
+              44.864713
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "color": "Purple",
+              "iconClass": "Drop",
+              "iconUrl": "/uploads/pictogram/lodging-24-white.png",
+              "showLabel": null
+            },
+            "name": "Appart-Hôtel Mer & Golf City Bordeaux",
+            "description": "meretgolf.com\n21 rue de Gironde, 33000 Bordeaux"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.55143,
+              44.864652
+            ]
+          }
+        },
+        {
+          "type": "Feature",
+          "properties": {
+            "_umap_options": {
+              "color": "Purple",
+              "iconClass": "Drop",
+              "iconUrl": "/uploads/pictogram/lodging-24-white.png",
+              "showLabel": null
+            },
+            "name": "La Petite Annick",
+            "description": "Chambres d'hôtes - La Petite Annick"
+          },
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -0.556279,
+              44.866867
+            ]
+          }
+        }
+      ],
+      "_umap_options": {
+        "displayOnLoad": true,
+        "browsable": true,
+        "name": "Calque 1",
+        "id": 792934
+      }
+    }
+  ]
+}

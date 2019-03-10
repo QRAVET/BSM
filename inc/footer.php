@@ -1,6 +1,3 @@
-<style>/* surchage spectre */
-
-</style>
 <!-- Footer version PC -->
 <footer class="columns bg-dark-grey white p-absolute hide-md">    
     <div class="container grid-xl">

@@ -1,14 +1,13 @@
-// Get the container element
-var btnContainer = document.getElementById("menunav");
+var locationName = location.pathname.split("/");
+var pageName = locationName[locationName.length - 1];
+var selectedLi = pageName.split(".")[0];
+var li = document.getElementsByClassName(selectedLi);
 
-// Get all buttons with class="btn" inside the container
-var li = btnContainer.getElementsByClassName("btn-nav");
-
-// Loop through the buttons and add the active class to the current/clicked button
-for (var i = 0; i < li.length; i++) {
-  li[i].addEventListener("click", function() {
-    var current = document.getElementsByClassName("active-nav");
-    current[0].className = current[0].className.replace(" active-nav", "");
-    this.className += " active-nav";
-  });
+for(var i=0; i < li.length; i++) {
+  console.log(li);
+  li[i].classList.add("active-nav");
 }
+
+console.log(locationName);
+console.log(pageName);
+console.log(selectedLi);

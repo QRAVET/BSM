@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /***** GOOGLE FONT *****/
 @import url("https://fonts.googleapis.com/css?family=Changa:400,700");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700");
@@ -130,7 +131,6 @@ h5 {
   font-size: 12pt;
   font-family: "Changa";
   font-weight: bold;
-  text-transform: uppercase;
 }
 
 h6 {
@@ -723,7 +723,23 @@ button[type=submit] {
 /* end highlight */
 /***** Page VISITE *****/
 .body-visite {
-  height: 4000px;
+  height: 4100px;
+  position: relative;
+}
+@media (max-width: 1200px) {
+  .body-visite {
+    height: 4300px;
+  }
+}
+@media (max-width: 840px) {
+  .body-visite {
+    height: 6000px;
+  }
+}
+@media (max-width: 600px) {
+  .body-visite {
+    height: 6500px;
+  }
 }
 
 .size-menu-hover {
@@ -885,6 +901,162 @@ button[type=submit] {
   background-size: cover;
   height: 225px;
   width: 222px;
+}
+
+.prenom {
+  margin-top: 15px;
+  margin-bottom: 8px;
+}
+
+/*** Accèssibilité ***/
+.picto-tramb {
+  background: url(../img/picto/access/picto-tramb.svg) no-repeat center;
+  background-size: cover;
+  height: 120px;
+  width: 120px;
+}
+
+.picto-tramc {
+  background: url(../img/picto/access/picto-tramc.svg) no-repeat center;
+  background-size: cover;
+  height: 120px;
+  width: 120px;
+}
+
+.picto-vcub {
+  background: url(../img/picto/access/picto-vcub.svg) no-repeat center;
+  background-size: cover;
+  height: 120px;
+  width: 120px;
+}
+
+.picto-bus {
+  background: url(../img/picto/access/picto-bus.svg) no-repeat center;
+  background-size: cover;
+  height: 120px;
+  width: 120px;
+}
+
+/***** Page PROGRAMMATION *****/
+.body-programmation {
+  height: 1950px;
+  position: relative;
+}
+@media (max-width: 1200px) {
+  .body-programmation {
+    height: 1600px;
+  }
+}
+@media (max-width: 840px) {
+  .body-programmation {
+    height: 1400px;
+  }
+}
+@media (max-width: 600px) {
+  .body-programmation {
+    height: 1300px;
+  }
+}
+
+.hover-events-big {
+  background-color: #f0b227;
+  height: 300px;
+}
+
+.hover-events-big a {
+  height: 300px;
+}
+
+.hover-events-big:hover {
+  background: url(../img/photos/page-visite/bsm-hover-events.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s;
+}
+
+.hover-medioacqua-big {
+  background-color: #5cafa6;
+  height: 300px;
+}
+
+.hover-medioacqua-big a {
+  height: 300px;
+}
+
+.hover-medioacqua-big:hover {
+  background: url(../img/photos/page-visite/bsm-hover-medioacqua.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s;
+}
+
+/***** Page CONTACT *****/
+.body-contact {
+  height: 1950px;
+  position: relative;
+}
+@media (max-width: 1200px) {
+  .body-contact {
+    height: 1600px;
+  }
+}
+@media (max-width: 840px) {
+  .body-contact {
+    height: 1400px;
+  }
+}
+@media (max-width: 600px) {
+  .body-contact {
+    height: 1300px;
+  }
+}
+
+.hover-social {
+  background-color: #5cafa6;
+  height: 300px;
+}
+
+.hover-social a {
+  height: 300px;
+}
+
+.hover-social:hover {
+  background: url(../img/photos/page-contact/bsm-hover-social.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s;
+}
+
+.hover-contact {
+  background-color: #f4c55c;
+  height: 150px;
+}
+
+.hover-contact a {
+  height: 150px;
+}
+
+.hover-contact:hover {
+  background: url(../img/photos/page-contact/bsm-hover-contact.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s;
+}
+
+.hover-partners {
+  background-color: #f0b227;
+  height: 150px;
+}
+
+.hover-partners a {
+  height: 150px;
+}
+
+.hover-partners:hover {
+  background: url(../img/photos/page-contact/bsm-hover-partners.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s;
 }
 
 /*# sourceMappingURL=style.css.map */

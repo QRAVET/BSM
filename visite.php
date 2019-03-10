@@ -26,7 +26,7 @@
         <?php include './inc/burger.php' ?>
 
         <!-- Section premier viewport -->
-        <div class="columns p-relative">
+        <div class="columns p-relative hide-xl">
             <div class="button-down hide-md tooltip" data-tooltip="En savoir plus">
                 <a href="#tarifs"><img src="img/picto/button/button-grey.svg" alt="ancre-section-suivante"></a>
             </div>
@@ -54,9 +54,9 @@
 
     </div><!-- fin de container -->
 
-    <!-- Section TARIFS-->
+    
     <div class="container grid-xl">
-        <div class="columns section-1" id="tarifs">
+        <div class="columns section-1" id="tarifs"><!-- Section TARIFS -->
             <div class="column col-6 col-md-12">
                 <figure class="figure">
                     <img src="./img/photos/page-visite/tarifs.jpg" alt="photo-bassins-bsm" class="img-responsive">
@@ -70,25 +70,29 @@
                     par mail ou par téléphone au préalable.</p>
             </div>
         </div>
-        <div class="columns bloc" id="horaires">
-            <div class="column col-6 col-md-12 text-lbsm-left">
-                <h3>horaires</h3>
-                <p><span class="text-uppercase">HEURES D’OUVERTURES PENDANT LES EXPOSITIONS :</span><br><br><span class="text-bold">Du mardi au dimanche de 13h30 à 19h
-                    <br>Fermé les lundis et jours fériés<br><br></span><span class="text-uppercase">HORS PÉRIODE D’EXPOSITION :</span>
-                    <br><br>Le centre culturel de La Base Sous-marine est fermé lorsqu’il n’y a pas d’exposition.</p>
-            </div>
-            <?php include './inc/calendar.php' ?>
-        </div>
-        <div class="columns">
-            <div class="column col-6 col-mr-auto text-justify">
-                <p>Retrouvez l’intégralité des informations concernant l’exposition du moment ainsi que le détail des évènements de la Base sous-marine dans nos sections dédiées :</p>
-            </div>
-        </div>
-        <div class="columns white">
-            <a class="column col-6 col-md-12 text-center h3-auto hover-medioacqua" href="#medioacqua"><h3>medio acqua</h3></a>
-            <a class="column col-6 col-md-12 text-center h3-auto hover-events" href="#events"><h3>évènements</h3></a>
-        </div>
-        <div class="columns bloc" id="visite">
+        <div class="columns bloc" id="horaires"><!-- Section HORAIRES -->
+            <div class="column col-12">
+                <div class="columns">
+                    <div class="column col-6 col-md-12 text-lbsm-left">
+                        <h3>horaires</h3>
+                        <p><span class="text-uppercase">HEURES D’OUVERTURES PENDANT LES EXPOSITIONS :</span><br><br><span class="text-bold">Du mardi au dimanche de 13h30 à 19h
+                            <br>Fermé les lundis et jours fériés<br><br></span><span class="text-uppercase">HORS PÉRIODE D’EXPOSITION :</span>
+                            <br><br>Le centre culturel de La Base Sous-marine est fermé lorsqu’il n’y a pas d’exposition.</p>
+                    </div>
+                    <?php include './inc/calendar.php'?>
+                </div>
+                <div class="columns">
+                    <div class="column col-6 col-md-12 col-mr-auto text-justify">
+                        <p>Retrouvez l’intégralité des informations concernant l’exposition du moment ainsi que le détail des évènements de la Base sous-marine dans nos sections dédiées :</p>
+                    </div>
+                </div>
+                <div class="columns white">
+                    <a class="column col-6 col-md-12 text-center h3-auto hover-medioacqua" href="programmation.php"><h3>medio acqua</h3></a>
+                    <a class="column col-6 col-md-12 text-center h3-auto hover-events" href="programmation.php"><h3>évènements</h3></a>
+                </div>
+            </div>    
+        </div>    
+        <div class="columns bloc" id="visite"><!-- Section VISITE GUIDÉE -->
             <div class="column col-12">
                 <h3>Visite guidée</h3>
             </div>
@@ -98,65 +102,104 @@
             Sans réservation, limité à 30 personnes.</p>
             </div>
 
-            <!-- PROFIL 1 MEDIATEUR CULTUREL -->
-            <div class="column col-2 col-lg-12 col-mx-auto">
-                <div class="photo-profil-1">
-                </div>
-                <p class="text-center text-bold">Sébastien MIALE</p>
+            <!-- PROFIL 1 MEDIATEUR CULTUREL --> 
+            <div class="column col-md-12 col-sm-12">
+                <div class="photo-profil-1 p-centered"></div>
+                <p class="prenom text-center text-bold">Sébastien MIALE</p>
                 <p class="text-center">Régie des oeuvres<br>Médiateur culturel</p>
             </div>
-            <!-- fin de profil 1 mediateur culturel -->
+            <!-- FIN DE PROFIL 1 -->
 
             <!-- PROFIL 2 MEDIATEUR CULTUREL -->
-            <div class="column col-2 col-lg-6 col-mx-auto">
-                <div class="photo-profil-2">
-                </div>
-                <p class="text-center text-bold">Jessica LORA</p>
+            <div class="column col-md-6 col-sm-12 bandeaubleu">
+                <div class="photo-profil-2 p-centered"></div>
+                <p class="prenom text-center text-bold">Jessica LORA</p>
                 <p class="text-center">Médiatrice culturelle</p>
             </div>
-            <!-- fin de profil 2 mediateur culturel -->
+            <!-- FIN DE PROFIL 2 -->
 
             <!-- PROFIL 3 MEDIATEUR CULTUREL -->
-            <div class="column col-2 col-lg-6 col-mx-auto">
-                <div class="photo-profil-3">
-                </div>
-                <p class="text-center text-bold">Camille LEVY</p>
+            <div class="column col-md-6 col-sm-12 bandeaubleu">
+                <div class="photo-profil-3 p-centered"></div>
+                <p class="prenom text-center text-bold">Camille LEVY</p>
                 <p class="text-center">Médiatrice culturelle</p>
             </div>
-            <!-- fin de profil 3 mediateur culturel -->
+            <!-- FIN DE PROFIL 3 -->
 
             <!-- PROFIL 4 MEDIATEUR CULTUREL -->
-            <div class="column col-2 col-lg-6 col-mx-auto">
-                <div class="photo-profil-4">
-                </div>
-                <p class="text-center text-bold">Raphaël ROUSSET</p>
+            <div class="column col-md-6 col-sm-12 bandeaubleu">
+                <div class="photo-profil-4 p-centered"></div>
+                <p class="prenom text-center text-bold">Raphaël ROUSSET</p>
                 <p class="text-center">Médiateur culturel</p>
             </div>
-            <!-- fin de profil 4 mediateur culturel -->
-            
-            <!-- PROFIL 5 MEDIATEUR CULTUREL -->
-            <div class="column col-2 col-lg-6 col-mx-auto">
-                <div class="photo-profil-5">
-                </div>
-                <p class="text-center text-bold">Maude NOUGARET</p>
-                <p class="text-center">Stagiaire<br>Médiateur culturel</p>
-            </div>
-            <!-- fin de profil 5 mediateur culturel -->
-        
+            <!-- FIN DE PROFIL 4 -->
 
+            <!-- PROFIL 5 MEDIATEUR CULTUREL -->
+            <div class="column col-md-6 col-sm-12 bandeaubleu">
+                <div class="photo-profil-5 p-centered"></div>
+                <p class="prenom text-center text-bold">Maude NOUGARET</p>
+                <p class="text-center">Stagiaire<br>Médiatrice culturelle</p>
+            </div>
+            <!-- FIN DE PROFIL 5 -->
         </div>
-        <div class="columns bloc" id="access">
-            <div class="column col-6 col-md-12"></div>
-            <div class="column col-6 col-md-12"></div>
+        <div class="columns bloc" id="access"><!-- Section ACCESSIBILITÉ -->
+            <div class="column col-12">
+                <h3>Accèssibilité</h3>
+            </div>
+            <div class="column col-2 col-mx-auto col-md-6 col-sm-12 bandeaubleu">
+                <h4>Tram :</h4>
+                <div class="picto-tramb p-centered"></div>
+                <p class="text-center">Arrêt<br>Cité du vin</p>
+            </div>
+            <div class="column col-2 col-mx-auto col-md-6 col-sm-12 bandeaubleu">
+                <h4>Tram :</h4>
+                <div class="picto-tramc p-centered"></div>
+                <p class="text-center">Arrêt<br>Ravezies</p>
+            </div>
+            <div class="column col-2 col-mx-auto col-md-6 col-sm-12 bandeaubleu">
+                <h4>Bus :</h4>
+                <div class="picto-bus p-centered"></div>
+                <p class="text-center">Arrêt Latule<br>Liane 9 & 32</p>
+            </div>
+            <div class="column col-2 col-mx-auto col-md-6 col-sm-12 bandeaubleu">
+                <h4>V³ TBM:</h4>
+                <div class="picto-vcub p-centered"></div>
+                <p class="text-center">Station<br>Lucien Faure</p>
+            </div>
         </div>
-        <div class="columns bloc" id="proxy">
-            <div class="column col-6 col-md-12"></div>
-            <div class="column col-6 col-md-12"></div>
+        <div class="columns bloc" id="proxy"><!-- Section PROXIMITÉ -->
+            <div class="column col-6 col-md-12">
+                <iframe width="100%" height="100%" frameBorder="0" allowfullscreen src="https://umap.openstreetmap.fr/fr/map/base-sous-marine-bordeaux_301383?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&allowEdit=false&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=true"></iframe><p><a href="https://umap.openstreetmap.fr/fr/map/base-sous-marine-bordeaux_301383">Voir en plein écran</a></p></div>
+            <div class="column col-6 col-md-12 text-lbsm-right">
+                <h3>à proximité</h3>
+                <h4>BARS & RESTAURANTS :</h4>
+                <ul>
+                    <li>iBoat</li>
+                    <li>McDonald's</li>
+                    <li>Bistro Régent La Péniche</li>
+                    <li>Restaurant Saudade</li>
+                    <li>V and B Bordeaux-Lac</li>
+                </ul>
+                <h4>divertissement :</h4>
+                <ul>
+                    <li>Parc de loisirs Kidooland</li>
+                    <li>Stade Bordelais Asptt - BMX</li>
+                    <li>Zone commerciale de Bordeaux-Lac</li>
+                </ul>
+                <h4>hôtels :</h4>
+                <ul>
+                    <li>Apparteo Bordeaux</li>
+                    <li>Radisson Blu Hôtel Bordeaux</li>
+                    <li>Appart-hôtel Mer & Golf City</li>
+                    <li>Chambre d'hôtes La Petite Annick</li>
+                </ul>
+            </div>
+            
         </div>
     </div>
 
     <!-- footer -->
-    <?/*php include './inc/footer.php' */?>
+    <?php include './inc/footer.php' ?>
 
         
     <!-- Import JQUERY -->
