@@ -39,14 +39,14 @@
 
         <!-- Buttons picture hover -->
         <div class="columns">
-            <div class="column col-4 size-menu-hover white">
+            <div class="column col-4 col-md-12 size-menu-hover white">
                 <a class="columns text-center h3-auto hover-tarifs" href="#tarifs"><h3>tarifs</h3></a>
                 <a class="columns text-center h3-auto hover-horaires" href="#horaires"><h3>horaires</h3></a>
             </div>
-            <div class="column col-4 white"">
+            <div class="column col-4 col-md-12 white"">
                 <a class="columns text-center h3-auto-big hover-visite" href="#visite"><h3>visite guidée</h3></a>
             </div>
-            <div class="column col-4 white"">
+            <div class="column col-4 col-md-12 white"">
                 <a class="columns text-center h3-auto hover-access" href="#access"><h3>accéssibilité</h3></a>
                 <a class="columns text-center h3-auto hover-proxy" href="#proxy"><h3>à proximité</h3></a>
             </div>

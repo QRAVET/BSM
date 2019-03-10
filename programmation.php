@@ -53,7 +53,8 @@
                 <div class="empty-icon">
                     <i class="icon icon-people icon-4x"></i>
                 </div>
-                <p class="empty-title h2 text-uppercase">Page en cours de construction</p>
+                <p class="empty-title h2 text-uppercase hide-md">Page en cours de construction</p>
+                <p class="empty-title h4 text-uppercase show-md">Page en cours de construction</p>
                 <p class="empty-subtitle">Rendez-nous visite prochainement</p>
                 <div class="loading loading-lg"></div>
             </div>

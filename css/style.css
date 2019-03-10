@@ -733,12 +733,12 @@ button[type=submit] {
 }
 @media (max-width: 840px) {
   .body-visite {
-    height: 6000px;
+    height: 6350px;
   }
 }
 @media (max-width: 600px) {
   .body-visite {
-    height: 6500px;
+    height: 6800px;
   }
 }
 
@@ -954,7 +954,7 @@ button[type=submit] {
 }
 @media (max-width: 600px) {
   .body-programmation {
-    height: 1300px;
+    height: 1550px;
   }
 }
 
