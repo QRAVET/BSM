@@ -62,7 +62,7 @@
     <div class="container grid-xl">
         <div class="columns">
             <div class="column col-md-12 text-center light-grey mentions">
-                <p>&#x24B8;LaBaseSousMarine_2019 - <a href="mentionslegales" target="_blank" class="">Mentions légales</a></p>
+                <p>&#x24B8;LaBaseSousMarine_2019 - <a href="mentions-legales.php" target="_blank">Mentions légales</a></p>
             </div>
             <div class="column col-md-12">
                 <div class="column col-8 col-mx-auto">

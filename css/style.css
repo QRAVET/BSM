@@ -1059,4 +1059,41 @@ button[type=submit] {
   transition: 0.5s;
 }
 
+/***** Page MENTIONS LEGALES *****/
+.hover-mentions {
+  background-color: #f4c55c;
+  height: 300px;
+}
+
+.hover-mentions a {
+  height: 300px;
+}
+
+.hover-mentions:hover {
+  background: url(../img/photos/page-contact/bsm-hover-contact.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s;
+}
+
+.body-mentions {
+  height: 3800px;
+  position: relative;
+}
+@media (max-width: 1200px) {
+  .body-mentions {
+    height: 3700px;
+  }
+}
+@media (max-width: 840px) {
+  .body-mentions {
+    height: 5200px;
+  }
+}
+@media (max-width: 600px) {
+  .body-mentions {
+    height: 5200px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
