@@ -991,6 +991,10 @@ button[type=submit] {
 }
 
 /***** Page CONTACT *****/
+.h1-page > .container > p {
+  margin: -30px 0 0 0;
+}
+
 .body-contact {
   height: 1950px;
   position: relative;
@@ -1057,6 +1061,10 @@ button[type=submit] {
   background-size: cover;
   background-position: center;
   transition: 0.5s;
+}
+
+.api-fb h4 {
+  margin: auto;
 }
 
 /***** Page MENTIONS LEGALES *****/

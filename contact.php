@@ -40,30 +40,43 @@
         
         <!-- Buttons picture hover -->
         <div class="columns">
-            <div class="column col-6 white"">
+            <div class="column col-6 col-md-12 white">
                 <a class="columns text-center h3-auto-big hover-social" href="#social"><h3>réseaux sociaux</h3></a>
             </div>
-            <div class="column col-6 white"">
+            <div class="column col-6 white hide-md">
                 <a class="columns text-center h3-auto hover-contact" href="#contact"><h3>contact</h3></a>
                 <a class="columns text-center h3-auto hover-partners" href="#partners"><h3>partenaires</h3></a>
             </div>
-        </div>
-
-        <!-- Work in progress -->
-        <div class="columns h1-page">
-            <div class="column col-8 col-mx-auto empty">
-                <div class="empty-icon">
-                    <i class="icon icon-people icon-4x"></i>
-                </div>
-                <p class="empty-title h2 text-uppercase hide-md">Page en cours de construction</p>
-                <p class="empty-title h4 text-uppercase show-md">Page en cours de construction</p>
-                <p class="empty-subtitle">Rendez-nous visite prochainement</p>
-                <div class="loading loading-lg"></div>
+            <div class="column col-6 col-md-12 white show-md">
+                <a class="columns text-center h3-auto hover-contact" href="#contact"><h3>contact</h3></a>
+            </div>
+            <div class="column col-6 col-md-12 white show-md">
+                <a class="columns text-center h3-auto hover-partners" href="#partners"><h3>partenaires</h3></a>
             </div>
         </div>
-        
-    </div>
+    </div><!-- fin du container-->
 
+    <div class="container grid-xl">
+        <div class="columns section-1" id="social"><!-- Section RESEAUX SOCIAUX -->
+            <h3>réseaux sociaux</h3>
+        </div>
+        <div class="columns">
+            <div class="column col-6 col-md-12">
+                <div class="columns">
+                    <div class="column logo-insta-footer"></div>
+                    <div class="column api-insta"><h4>instagram</h4></div>
+                </div>
+                <div class="columns"></div>
+            </div>
+            <div class="column col-6 col-md-12">
+                <div class="columns">
+                    <div class="column logo-fb-footer"></div>
+                    <div class="column api-fb"><h4>facebook</h4></div>
+                </div>
+                <div class="columns"></div>
+            </div>
+        </div>
+    </div>
     <!-- footer -->
     <?php include './inc/footer.php' ?>
 
