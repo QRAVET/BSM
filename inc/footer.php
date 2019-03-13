@@ -1,5 +1,5 @@
 <!-- Footer version PC -->
-<footer class="columns bg-dark-grey white p-absolute hide-md">    
+<footer class="columns bg-dark-grey white p-absolute hide-md" id="footer">    
     <div class="container grid-xl">
         <div class="columns h3-accueil">
             <div class="column col-5">

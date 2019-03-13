@@ -134,7 +134,7 @@ h5 {
 }
 
 h6 {
-  font-size: 12pt;
+  font-size: 18pt;
   font-family: "Source Sans Pro";
   font-weight: bold;
   text-transform: uppercase;
@@ -282,6 +282,16 @@ h6 {
   top: 820px;
   right: 48%;
   left: 48%;
+  z-index: 50;
+}
+
+.button-down-mid {
+  height: 80px;
+  width: 80px;
+  position: absolute;
+  right: 48%;
+  left: 48%;
+  z-index: 50;
 }
 
 .button-white-up {
@@ -722,6 +732,10 @@ button[type=submit] {
 
 /* end highlight */
 /***** Page VISITE *****/
+.m-top {
+  margin-top: 12%;
+}
+
 .body-visite {
   height: 4100px;
   position: relative;
@@ -939,7 +953,7 @@ button[type=submit] {
 
 /***** Page PROGRAMMATION *****/
 .body-programmation {
-  height: 1950px;
+  height: 4000px;
   position: relative;
 }
 @media (max-width: 1200px) {
@@ -990,28 +1004,66 @@ button[type=submit] {
   transition: 0.5s;
 }
 
+.section-container {
+  height: 100vh;
+  width: 100vw;
+}
+
+.events {
+  padding: 0;
+}
+
+.events h3 {
+  margin: 4% 0 4% 0;
+  padding: 2% 0 2% 2%;
+}
+
+.events h3:hover {
+  background: #1e2023;
+  color: #f4c55c;
+  transition: 0.6s;
+}
+
+.more-button {
+  background: url(../img/picto/button/more-button-grey.svg) no-repeat center;
+  height: 43px;
+  width: 150px;
+  cursor: pointer;
+}
+
+.more-button:hover {
+  background: url(../img/picto/button/more-button-white.svg) no-repeat center;
+  transition: 0.8s;
+}
+
+.vignette-events {
+  padding: 2%;
+  margin-top: 8%;
+  margin-bottom: 4%;
+}
+
 /***** Page CONTACT *****/
 .h1-page > .container > p {
   margin: -30px 0 0 0;
 }
 
 .body-contact {
-  height: 1950px;
+  height: 3300px;
   position: relative;
 }
 @media (max-width: 1200px) {
   .body-contact {
-    height: 1600px;
+    height: 3000px;
   }
 }
 @media (max-width: 840px) {
   .body-contact {
-    height: 1400px;
+    height: 3900px;
   }
 }
 @media (max-width: 600px) {
   .body-contact {
-    height: 1300px;
+    height: 3700px;
   }
 }
 
@@ -1064,7 +1116,148 @@ button[type=submit] {
 }
 
 .api-fb h4 {
-  margin: auto;
+  margin-top: 15%;
+}
+
+.api-insta h4 {
+  margin-top: 15%;
+}
+
+.api-fb {
+  height: 75px;
+}
+
+.api-insta {
+  height: 75px;
+}
+
+.pic-form {
+  background: url(../img/photos/page-contact/pic-form.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 360px;
+  height: 100%;
+}
+
+form h6, form input, form textarea {
+  width: 100%;
+  border: 0px solid;
+}
+
+form h6 {
+  margin-top: 0;
+  margin-bottom: 4%;
+}
+
+form input {
+  height: 60px;
+  margin-bottom: 6%;
+  color: white;
+  padding-left: 4%;
+  font-size: 14pt;
+  font-weight: 500;
+}
+
+form textarea {
+  height: 60px;
+  margin-bottom: 6%;
+  color: white;
+  padding-left: 2%;
+  font-size: 14pt;
+  font-weight: 500;
+}
+
+form textarea {
+  height: 200px;
+}
+
+form p {
+  font-size: 10pt;
+}
+
+/*** Partenaires ***/
+.partenaires {
+  height: 240px;
+  width: 100%;
+}
+
+.logo-madd {
+  background: url(../img/photos/page-contact/partenaires/logo-MADD.jpg) no-repeat center;
+  background-size: contain;
+  height: 180px;
+  width: 180px;
+}
+@media (max-width: 600px) {
+  .logo-madd {
+    height: 80px;
+    width: 80px;
+  }
+}
+
+.logo-iboat {
+  background: url(../img/photos/page-contact/partenaires/logo-iboat.jpg) no-repeat center;
+  background-size: contain;
+  height: 180px;
+  width: 180px;
+}
+@media (max-width: 600px) {
+  .logo-iboat {
+    height: 80px;
+    width: 80px;
+  }
+}
+
+.logo-lorangeade {
+  background: url(../img/photos/page-contact/partenaires/logo-lorangeade.jpg) no-repeat center;
+  background-size: contain;
+  height: 180px;
+  width: 180px;
+}
+@media (max-width: 600px) {
+  .logo-lorangeade {
+    height: 80px;
+    width: 80px;
+  }
+}
+
+.logo-bordeaux {
+  background: url(../img/photos/page-contact/partenaires/logo-bordeaux.jpg) no-repeat center;
+  background-size: contain;
+  height: 180px;
+  width: 180px;
+}
+@media (max-width: 600px) {
+  .logo-bordeaux {
+    height: 80px;
+    width: 80px;
+  }
+}
+
+.logo-frac {
+  background: url(../img/photos/page-contact/partenaires/logo-FRAC.jpg) no-repeat center;
+  background-size: contain;
+  height: 180px;
+  width: 180px;
+}
+@media (max-width: 600px) {
+  .logo-frac {
+    height: 80px;
+    width: 80px;
+  }
+}
+
+.logo-web {
+  height: 45px;
+  width: 45px;
+}
+
+.margin-1 {
+  margin-top: 20px;
+}
+
+.margin-2 {
+  margin-top: auto;
+  margin-bottom: 20px;
 }
 
 /***** Page MENTIONS LEGALES *****/

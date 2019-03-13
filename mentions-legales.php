@@ -28,7 +28,7 @@
         <!-- Section premier viewport -->
         <div class="columns p-relative hide-xl">
             <div class="button-down hide-md tooltip" data-tooltip="En savoir plus">
-                <a href="#tarifs"><img src="img/picto/button/button-grey.svg" alt="ancre-section-suivante"></a>
+                <a href="#mentions-legales"><img src="img/picto/button/button-grey.svg" alt="ancre-section-suivante"></a>
             </div>
         </div>
         <div class="columns h1-page">
@@ -48,7 +48,7 @@
             </div>
         </div>
     </div>
-    <div class="container grid-xl">
+    <div id="mentions-legales" class="container grid-xl">
         <div class="columns">
             <h2>Mentions légales</h2>
             <p>Vos données personnelles peuvent être collectées lors de la navigation sur ce site Internet.

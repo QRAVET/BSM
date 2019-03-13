@@ -70,11 +70,9 @@
                 <div class="calendar-date calendar-range range-end tooltip" data-tooltip="Après-midi scolaires">
                     <button class="date-item p-centered">9</button>
                 </div>
-
-                <!-- calendar date: today -->
-                <div class="calendar-date tooltip" data-tooltip="Date du jour">
-                    <button class="date-item p-centered date-today bg-secondary">10</button>
-                </div>
+                <div class="calendar-date">
+                    <button class="date-item p-centered">10</button>
+                </div>                
 
                 <!-- calendar date: fermeture -->
                 <div class="calendar-date tooltip" data-tooltip="Fermeture">
@@ -87,8 +85,9 @@
                 <div class="calendar-date">
                     <button class="date-item p-centered">13</button>
                 </div>
-                <div class="calendar-date">
-                    <button class="date-item p-centered">14</button>
+                <!-- calendar date: today -->
+                <div class="calendar-date tooltip" data-tooltip="Date du jour">
+                    <button class="date-item p-centered date-today text-bold bg-secondary">14</button>
                 </div>
                 <div class="calendar-date">
                     <button class="date-item p-centered">15</button>

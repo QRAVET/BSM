@@ -28,7 +28,7 @@
         <!-- Section premier viewport -->
         <div class="columns p-relative hide-xl">
             <div class="button-down hide-md tooltip" data-tooltip="En savoir plus">
-                <a href="#tarifs"><img src="img/picto/button/button-grey.svg" alt="ancre-section-suivante"></a>
+                <a href="#tarifs"><img src="img/picto/button/button-grey.svg" alt="ancre-section-suivante" id="tarifs"></a>
             </div>
         </div>
         <div class="columns h1-page">
@@ -56,7 +56,7 @@
 
     
     <div class="container grid-xl">
-        <div class="columns section-1" id="tarifs"><!-- Section TARIFS -->
+        <div class="columns section-1 m-top"><!-- Section TARIFS -->
             <div class="column col-6 col-md-12">
                 <figure class="figure">
                     <img src="./img/photos/page-visite/tarifs.jpg" alt="photo-bassins-bsm" class="img-responsive">
@@ -210,5 +210,6 @@
     </script><!-- Fin d'import JQUERY -->
 
     <script src="js/script-accueil.js"></script>
+    <script src="js/js-swap.js"></script>
 </body>
 </html>
